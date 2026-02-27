@@ -1,0 +1,30 @@
+
+services:
+  scraper-startech:
+    build: .
+    container_name: scraper_startech
+    restart: on-failure
+    environment:
+      - TARGET_DOMAIN=startech.com.bd
+      - START_URL=https://www.startech.com.bd/camera
+      - SELLER_NAME=StarTech
+      - CONCURRENCY=5
+      - DELAY=1.2
+      - MAX_DUPLICATES=1000
+      - MAX_ITEMS=100000  
+    volumes:
+      - ./data:/app/data
+
+#   scraper-ryans:
+#     build: .
+#     container_name: scraper_ryans
+#     restart: on-failure
+#     environment:
+#       - TARGET_DOMAIN=ryanscomputers.com
+#       - START_URL=https://www.ryanscomputers.com/
+#       - SELLER_NAME=Ryans
+#       - CONCURRENCY=5
+#       - DELAY=1.1
+#       - MAX_ITEMS=100     
+    # volumes:
+    #   - ./data:/app/data
