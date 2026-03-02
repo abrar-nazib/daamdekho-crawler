@@ -6,7 +6,7 @@ services:
     restart: on-failure
     environment:
       - TARGET_DOMAIN=startech.com.bd
-      - START_URL=https://www.startech.com.bd/camera
+      - RECURSE=False
       - SELLER_NAME=StarTech
       - CONCURRENCY=5
       - DELAY=1.2

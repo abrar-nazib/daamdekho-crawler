@@ -42,7 +42,7 @@ BASE_PRODUCT = {
     "is_active": ""
 }
 
-def parse_startech(response, seller_name, base_url):
+def parse_startech(response, seller_name, base_url, recurse=True):
     """Extraction logic specifically for StarTech"""
     
     logger.info(f"[StarTech] 🌍 Visiting URL: {response.url}")
@@ -53,14 +53,16 @@ def parse_startech(response, seller_name, base_url):
         product = BASE_PRODUCT.copy()
         
         product["product_name"] = response.css("h1.product-name::text").get("").strip()
-        product["product_description"] = response.xpath('//*[@id="description"]/div[2]/p[1]//text()').get("").strip()
         product["seller_product_name"] = product["product_name"]
         product["seller_product_url"] = response.url
         
         product["primary_image_url"] = response.xpath("/html/body/div[5]/div[1]/div/div[2]/div[1]/div[1]/div/a/img/@src").get("").strip()
         
-        product["current_price"] = response.css('td.product-price::text').get("").strip()
-        product["original_price"] = response.css('td.product-regular-price::text').get("").strip()
+        # Clean up price: remove currency symbols and extra whitespace
+        price_text = response.css('td.product-price::text, td.product-price > ins::text').get("").strip()
+        product["current_price"] = price_text.replace("৳", "").replace(",", "").strip() if price_text else ""
+        price_text_old = response.css('td.product-regular-price::text').get("").strip()
+        product["original_price"] = price_text_old.replace("৳", "").replace(",", "").strip() if price_text_old else ""
 
         product["category_name"] = response.xpath('/html/body/section/div/ul/li[2]/a/span/text()').get("").strip()
         product["review_count"] = response.xpath('//*[@id="write-review"]/div[1]/div[1]/h2/text()').get("").strip()
@@ -75,6 +77,15 @@ def parse_startech(response, seller_name, base_url):
         yield product
     else:
         logger.info(f"[StarTech] 🗂️ Category/Nav page detected. Scanning for links...")
+
+    if not recurse:
+        # If recursion is off, we stop here and don't look for new links
+        logger.info(f"[StarTech] 🛑 Recursion is OFF. Not following links from: {response.url}")
+        return
+
+    # Everything below only runs if recurse=True
+    logger.info(f"[StarTech] 🔄 Recursion is ON. Scanning for links...")
+
 
     # --- 2. LINK FOLLOWING LOGIC (Un-indented so it runs on ALL pages) ---
     target_selectors =[

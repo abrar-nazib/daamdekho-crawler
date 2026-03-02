@@ -5,15 +5,20 @@ import logging
 import sys  # Import sys for clean exits
 from scrapling.spiders import Spider, Response
 from parsers import PARSERS, BASE_PRODUCT
+import environs
+
+# Setup environment variables
+env = environs.Env()
+env.read_env()  # Reads from .env file if it exists
 
 # --- 1. Read Configurations ---
-TARGET_DOMAIN = os.getenv("TARGET_DOMAIN", "example.com")
-START_URLS = os.getenv("START_URL", "https://example.com/")
-SELLER_NAME = os.getenv("SELLER_NAME", "Unknown")
-CONCURRENCY = int(os.getenv("CONCURRENCY", "1"))
-DELAY = float(os.getenv("DELAY", "2.0"))
-MAX_ITEMS = int(os.getenv("MAX_ITEMS", "100"))
-MAX_CONSECUTIVE_DUPLICATES = int(os.getenv("MAX_DUPLICATES", "50"))
+TARGET_DOMAIN = env("TARGET_DOMAIN", default="example.com")
+SELLER_NAME = env("SELLER_NAME", default="Unknown")
+CONCURRENCY = env.int("CONCURRENCY", default=1)
+DELAY = env.float("DELAY", default=2.0)
+MAX_ITEMS = env.int("MAX_ITEMS", default=100)
+MAX_CONSECUTIVE_DUPLICATES = env.int("MAX_DUPLICATES", default=50)
+RECURSE = env.bool("RECURSE", default=True)
 
 # --- 2. Setup Logging ---
 os.makedirs("/app/data/csvs", exist_ok=True)
@@ -37,10 +42,15 @@ logging.getLogger("scrapling").setLevel(logging.INFO)
 class UniversalSpider(Spider):
     name = f"spider_{SELLER_NAME.lower()}"
     allowed_domains = {TARGET_DOMAIN}
-    start_urls = [
-        "https://www.startech.com.bd/gaming",
-        "https://www.startech.com.bd/television-shop",
-        "https://www.startech.com.bd/appliance",
+    # Load csv file named SELLER_NAME_entrypoints.csv which has one column named 'url' and use those URLs as start_urls
+    entrypoints_file = f"/app/data/csvs/{SELLER_NAME}_entrypoints.csv"
+    if os.path.exists(entrypoints_file):
+        with open(entrypoints_file, mode="r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            start_urls = [row["url"] for row in reader if row.get("url")]
+    else:
+        start_urls = [
+
     ]
     concurrent_requests = CONCURRENCY
     download_delay = DELAY
@@ -48,7 +58,7 @@ class UniversalSpider(Spider):
     async def parse(self, response: Response):
         parser_func = PARSERS.get(TARGET_DOMAIN)
         if parser_func:
-            for item_or_request in parser_func(response, SELLER_NAME, START_URLS):
+            for item_or_request in parser_func(response, SELLER_NAME, TARGET_DOMAIN, recurse=RECURSE):
                 yield item_or_request
 
 
