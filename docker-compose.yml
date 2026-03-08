@@ -15,17 +15,31 @@ services:
   #   volumes:
   #     - ./data:/app/data
 
-  scraper-ryans:
+  # scraper-ryans:
+  #   build: .
+  #   container_name: scraper_ryans
+  #   restart: on-failure
+  #   environment:
+  #     - TARGET_DOMAIN=ryans.com
+  #     - SELLER_NAME=Ryans
+  #     - CONCURRENCY=5
+  #     - DELAY=1.1
+  #     - MAX_DUPLICATES=1000
+  #     - MAX_ITEMS=100000 
+  #     - RECURSE=True
+  #   volumes:
+  #     - ./data:/app/data
+  scraper-lira:
     build: .
-    container_name: scraper_ryans
+    container_name: scraper_lira
     restart: on-failure
     environment:
-      - TARGET_DOMAIN=ryans.com
-      - SELLER_NAME=Ryans
+      - TARGET_DOMAIN=liraimportltd.com
+      - SELLER_NAME=Lira
       - CONCURRENCY=5
       - DELAY=1.1
       - MAX_DUPLICATES=1000
-      - MAX_ITEMS=100000 
+      - MAX_ITEMS=10 
       - RECURSE=True
     volumes:
       - ./data:/app/data

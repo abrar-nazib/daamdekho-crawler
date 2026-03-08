@@ -1,0 +1,468 @@
+2026-03-08 07:38:21,758 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:38:21,766 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 07:38:23,292 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/
+2026-03-08 07:38:23,292 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 07:38:23,299 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 07:38:23,311 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/
+2026-03-08 07:38:23,311 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 07:38:23,319 [INFO] - Lira - [1 New] Saved: 
+2026-03-08 07:38:23,321 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 07:38:23,341 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/
+2026-03-08 07:38:23,342 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 07:38:23,371 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/
+2026-03-08 07:38:23,372 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 07:38:23,377 [INFO] - Lira - [2 New] Saved: 
+2026-03-08 07:38:23,379 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 07:38:23,385 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 07:38:23,390 [INFO] - Lira - [3 New] Saved: 
+2026-03-08 07:38:23,391 [INFO] - Lira - [4 New] Saved: 
+2026-03-08 07:38:23,635 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-08 07:38:23,635 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 07:38:23,639 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 07:38:23,642 [INFO] - Lira - [5 New] Saved: 
+2026-03-08 07:38:23,652 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 07:46:42,736 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:42,744 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:42,746 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:46:43,565 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:43,571 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:43,573 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:46:44,444 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:44,450 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:44,452 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:46:45,485 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:45,492 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:45,494 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:46:46,981 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:46,988 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:46,990 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:46:49,297 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:49,304 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:49,306 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:46:53,197 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:46:53,205 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:46:53,207 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-08 07:47:00,267 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:47:00,274 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:47:00,277 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 07:47:01,859 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 07:47:19,333 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 07:47:19,340 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 07:47:19,343 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 07:47:21,116 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 08:16:37,582 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 08:16:37,619 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 08:16:37,624 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 08:16:39,316 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 08:18:52,489 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 08:18:52,499 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 08:18:52,503 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 08:18:53,941 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/
+2026-03-08 08:18:53,942 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:53,945 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:53,961 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/
+2026-03-08 08:18:53,962 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:53,963 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:53,984 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-08 08:18:53,985 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:53,987 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:54,008 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/
+2026-03-08 08:18:54,009 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:54,011 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:54,293 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/
+2026-03-08 08:18:54,294 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:54,295 [INFO] - LiraImportLtd - 🔍 Found 1 unique target links.
+2026-03-08 08:18:55,277 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/2/
+2026-03-08 08:18:55,284 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:55,285 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:18:55,305 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/2/
+2026-03-08 08:18:55,307 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:55,309 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:18:55,325 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/39/
+2026-03-08 08:18:55,327 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:55,328 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:55,349 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/13/
+2026-03-08 08:18:55,350 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:55,352 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:55,509 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/page/3/
+2026-03-08 08:18:55,510 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:55,511 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:56,614 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/page/2/
+2026-03-08 08:18:56,615 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:56,616 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:56,627 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/6/
+2026-03-08 08:18:56,628 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:56,629 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:56,644 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/page/2/
+2026-03-08 08:18:56,645 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:56,647 [INFO] - LiraImportLtd - 🔍 Found 1 unique target links.
+2026-03-08 08:18:56,659 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/2/
+2026-03-08 08:18:56,662 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:56,666 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:18:57,059 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/
+2026-03-08 08:18:57,059 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:57,060 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:57,937 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/3/
+2026-03-08 08:18:57,938 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:57,939 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:18:57,955 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/3/
+2026-03-08 08:18:57,957 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:57,958 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:18:57,976 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/38/
+2026-03-08 08:18:57,977 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:57,979 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:18:58,192 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/
+2026-03-08 08:18:58,193 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:58,195 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:18:58,278 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/12/
+2026-03-08 08:18:58,279 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:18:58,280 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:33,501 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 08:19:33,509 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 08:19:33,513 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 08:19:34,929 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/
+2026-03-08 08:19:34,930 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:34,931 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:34,951 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/
+2026-03-08 08:19:34,953 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:34,954 [INFO] - LiraImportLtd - 🔍 Found 1 unique target links.
+2026-03-08 08:19:34,968 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/
+2026-03-08 08:19:34,969 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:34,971 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:34,990 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/
+2026-03-08 08:19:34,992 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:34,994 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:35,009 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-08 08:19:35,010 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:35,013 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:36,281 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/39/
+2026-03-08 08:19:36,283 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:36,285 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:36,303 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/6/
+2026-03-08 08:19:36,304 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:36,305 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:36,322 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/2/
+2026-03-08 08:19:36,323 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:36,324 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:36,336 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/page/2/
+2026-03-08 08:19:36,337 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:36,338 [INFO] - LiraImportLtd - 🔍 Found 1 unique target links.
+2026-03-08 08:19:36,400 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/2/
+2026-03-08 08:19:36,401 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:36,403 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:37,609 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/page/2/
+2026-03-08 08:19:37,611 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:37,612 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:37,631 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/page/3/
+2026-03-08 08:19:37,633 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:37,635 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:37,650 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/13/
+2026-03-08 08:19:37,651 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:37,652 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:37,668 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/2/
+2026-03-08 08:19:37,669 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:37,670 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:37,789 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/38/
+2026-03-08 08:19:37,791 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:37,794 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:38,947 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/3/
+2026-03-08 08:19:38,948 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:38,953 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:38,971 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/5/
+2026-03-08 08:19:38,972 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:38,974 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:39,220 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/
+2026-03-08 08:19:39,221 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:39,222 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:39,289 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/
+2026-03-08 08:19:39,291 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:39,294 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:39,455 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/
+2026-03-08 08:19:39,456 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:39,458 [INFO] - LiraImportLtd - 🔍 Found 1 unique target links.
+2026-03-08 08:19:40,261 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/3/
+2026-03-08 08:19:40,262 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:40,262 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:40,455 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/12/
+2026-03-08 08:19:40,458 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:40,461 [INFO] - LiraImportLtd - 🔍 Found 3 unique target links.
+2026-03-08 08:19:40,553 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-08 08:19:40,554 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:40,555 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:40,681 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/3/
+2026-03-08 08:19:40,682 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:40,683 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:40,797 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/
+2026-03-08 08:19:40,799 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:40,803 [INFO] - LiraImportLtd - 🔍 Found 2 unique target links.
+2026-03-08 08:19:41,530 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/37/
+2026-03-08 08:19:41,531 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:41,532 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:41,683 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/4/
+2026-03-08 08:19:41,685 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:41,690 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:41,819 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/hair-care/page/4/
+2026-03-08 08:19:41,820 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:41,821 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:41,903 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/11/
+2026-03-08 08:19:41,904 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:41,904 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:42,023 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/4/
+2026-03-08 08:19:42,024 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:42,025 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:42,833 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/36/
+2026-03-08 08:19:42,833 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:42,834 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:42,984 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/5/
+2026-03-08 08:19:42,987 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:42,992 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:43,159 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/10/
+2026-03-08 08:19:43,162 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:43,166 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:43,245 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/5/
+2026-03-08 08:19:43,247 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:43,248 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:44,100 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/35/
+2026-03-08 08:19:44,101 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:44,102 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:44,216 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/6/
+2026-03-08 08:19:44,217 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:44,218 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:44,389 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/9/
+2026-03-08 08:19:44,390 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:44,391 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:44,544 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/6/
+2026-03-08 08:19:44,545 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:44,546 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:45,397 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/34/
+2026-03-08 08:19:45,398 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:45,399 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:45,497 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/7/
+2026-03-08 08:19:45,497 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:45,498 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:45,611 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/8/
+2026-03-08 08:19:45,612 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:45,613 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:45,764 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/skin-care/page/7/
+2026-03-08 08:19:45,766 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:45,767 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:46,676 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/33/
+2026-03-08 08:19:46,677 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:46,678 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:46,774 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/8/
+2026-03-08 08:19:46,775 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:46,776 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:47,943 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/32/
+2026-03-08 08:19:47,944 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:47,945 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:48,045 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/9/
+2026-03-08 08:19:48,046 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:48,046 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:49,220 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/31/
+2026-03-08 08:19:49,222 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:49,229 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:49,313 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/10/
+2026-03-08 08:19:49,314 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:49,316 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:50,501 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/30/
+2026-03-08 08:19:50,502 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:50,503 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:50,606 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/11/
+2026-03-08 08:19:50,607 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:50,608 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:51,772 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/29/
+2026-03-08 08:19:51,773 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:51,774 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:52,234 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/12/
+2026-03-08 08:19:52,236 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:52,236 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:53,057 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/28/
+2026-03-08 08:19:53,058 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:53,059 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:53,459 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/13/
+2026-03-08 08:19:53,461 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:53,464 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:54,335 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/27/
+2026-03-08 08:19:54,336 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:54,337 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:54,692 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/14/
+2026-03-08 08:19:54,694 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:54,697 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:55,608 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/26/
+2026-03-08 08:19:55,613 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:55,616 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:55,922 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/15/
+2026-03-08 08:19:55,923 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:55,924 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:56,885 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/25/
+2026-03-08 08:19:56,886 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:56,886 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:57,140 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/16/
+2026-03-08 08:19:57,141 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:57,142 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:58,155 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/24/
+2026-03-08 08:19:58,159 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:58,162 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:58,364 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/17/
+2026-03-08 08:19:58,366 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:58,368 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:59,431 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/23/
+2026-03-08 08:19:59,432 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:59,433 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:19:59,585 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/18/
+2026-03-08 08:19:59,586 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:19:59,590 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:20:00,706 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/22/
+2026-03-08 08:20:00,707 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:20:00,707 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:20:00,770 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/19/
+2026-03-08 08:20:00,772 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:20:00,774 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:20:01,976 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/21/
+2026-03-08 08:20:01,977 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:20:01,978 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:20:02,149 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/20/
+2026-03-08 08:20:02,149 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-08 08:20:02,151 [INFO] - LiraImportLtd - 🔍 Found 4 unique target links.
+2026-03-08 08:20:02,162 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 08:22:50,001 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 08:22:50,013 [INFO] - Lira - Loaded 5 unique products from existing CSV.
+2026-03-08 08:22:50,018 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 08:22:51,496 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-08 08:22:51,496 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 08:22:51,502 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 08:22:51,506 [INFO] - Lira - [1 New] Saved: Megalast Liquid Catsuit Lipstick (Give Me Mocha)
+2026-03-08 08:22:51,515 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 08:23:07,642 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 08:23:07,659 [INFO] - Lira - Loaded 6 unique products from existing CSV.
+2026-03-08 08:23:07,663 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 08:23:09,159 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-08 08:23:09,159 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 08:23:09,165 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 08:23:09,182 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 08:23:41,644 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 08:23:41,655 [INFO] - Lira - Loaded 6 unique products from existing CSV.
+2026-03-08 08:23:41,659 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 08:23:43,086 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-08 08:23:43,086 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 08:23:43,090 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 08:23:43,118 [INFO] - Lira - Scraper finished successfully.
