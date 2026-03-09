@@ -41,66 +41,73 @@ BASE_PRODUCT = {
     "seller_country_code": "BD", 
     "is_active": ""
 }
+
 def parse(response, seller_name, base_url, recurse=True):
+    """
+    Standard entry point function expected by main.py
+    """
     logger.info(f"🌍 Visiting URL: {response.url}")
-
-    # --- 1. Detect product page vs category ---
-    is_product_page = (
-        "/product/" in response.url and "product-category" not in response.url
-    ) or bool(response.css("body.single-product"))
-
+    
+    # --- 1. PRODUCT EXTRACTION ---
+    # Check if it's a single product page (not a category page)
+    is_product_page = "product" in response.url and "product-category" not in response.url
+    
     if is_product_page:
         logger.info("🛒 Product page detected! Extracting data...")
         product = BASE_PRODUCT.copy()
-
-        product["product_name"] = response.xpath(
-            '//h1[@class="product_title entry-title"]/text()'
-        ).get("").strip()
+        
+        product["product_name"] = response.xpath('//h1[@class="product_title entry-title"]/text()').get("").strip()
+        product["product_slug"] = product["product_name"].lower().replace(" ", "-")
         product["seller_product_name"] = product["product_name"]
         product["seller_product_url"] = response.url
-        product["primary_image_url"] = response.xpath(
-            '//div[contains(@class,"woocommerce-product-gallery")]//img/@src'
-        ).get("").strip()
-
-        price_text = response.css("p.price span.woocommerce-Price-amount bdi::text").get("")
+        product["primary_image_url"] = response.xpath('//a[@class="woocommerce-main-image pswp-main-image zoom"]/img/@src').get("").strip()
+        
+        # Prices
+        price_text = response.xpath('(//p[@class="price"]//bdi)[2]/text()').get("").strip()
         product["current_price"] = price_text.replace("৳", "").replace(",", "").strip() if price_text else ""
+        
+        price_old = response.xpath('(//p[@class="price"]//bdi)[1]/text()').get("").strip()
+        product["original_price"] = price_old.replace("৳", "").replace(",", "").strip() if price_old else ""
 
-        product["category_name"] = response.css(
-            "nav.woocommerce-breadcrumb a:nth-child(3)::text"
-        ).get("").strip()
-        product["review_count"] = "0"
-
+        # Meta
+        product["category_name"] = response.xpath('(//nav[@class="woocommerce-breadcrumb"]/a)[3]/text()').get("").strip()
+        product['brand_name'] = response.xpath('//span[@class="product_brand"]/a/text()').get("").strip()
+        product["brand_slug"] = product["brand_name"].lower().replace(" ", "-")
+        product["review_count"] = 0
+        
+        # Stock & Status
+        # stock_text = response.css('.product-status::text').get("").strip()
         product["in_stock"] = "YES"
+        # product["seller_sku"] = response.css('.product-code::text').get("").strip()
         product["seller_sku"] = ""
         product["seller_name"] = seller_name
         product["base_url"] = base_url
         product["is_active"] = "1"
-
+        product["seller_sku"] = response.xpath('(//span[@class="sku"])[1]/text()').get("").strip() 
+        overview_lines = response.xpath('//div[@aria-labelledby="tab-title-description"]//text()').getall()
+        # Clean and join them with newlines to form a readable description block
+        product["product_description"] = "".join([line.strip() for line in overview_lines if line.strip()])
         yield product
-
     else:
         logger.info("🗂️ Category/Nav page detected.")
 
-    # --- 2. LINK FOLLOWING ON CATEGORY PAGES ---
+    # --- 2. LINK FOLLOWING ---
     if not recurse:
-        logger.info("🛑 Recursion is OFF. Stopping here.")
+        logger.info(f"🛑 Recursion is OFF. Stopping here.")
         return
 
-    # Only bother looking for links on non-product or mixed pages
+
     target_selectors = [
-        "ul.products li.product a.woocommerce-LoopProduct-link::attr(href)",  # product links
-        "nav.woocommerce-pagination a.page-numbers::attr(href)",              # pagination
+        '//div[@class="images-slider-wrapper"]/a/@href',  # Products
+        '//a[@class="next page-numbers"]/@href'    # Pagination
     ]
-
-    valid_links = response.css(", ".join(target_selectors)).getall()
+    
+    valid_links = response.xpath(', '.join(target_selectors)).getall()
     unique_links = list(set(valid_links))
-
+    
     logger.info(f"🔍 Found {len(unique_links)} unique target links.")
-
+    
     for link in unique_links:
-        if any(
-            ignored in link.lower()
-            for ignored in ["/account", "/cart", "/checkout", "/login", "javascript:", "tel:", "mailto:"]
-        ):
+        if any(ignored in link.lower() for ignored in ['/account', '/cart', '/checkout', '/login', 'javascript:', 'tel:', 'mailto:', "question", "review"]):
             continue
         yield response.follow(link)

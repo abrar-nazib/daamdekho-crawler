@@ -466,3 +466,494 @@ PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv
 2026-03-08 08:23:43,086 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
 2026-03-08 08:23:43,090 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
 2026-03-08 08:23:43,118 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 09:13:17,897 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 09:13:17,907 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-08 09:13:17,911 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 09:13:19,358 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-08 09:13:19,359 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 09:13:19,362 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 09:13:19,363 [INFO] - Lira - ♻️ Update: Megalast Liquid Catsuit Lipstick (Give Me Mocha)
+2026-03-08 09:13:19,369 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 09:33:22,334 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 09:33:22,349 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 09:33:23,780 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-08 09:33:23,781 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 09:33:23,805 [INFO] - Lira - Scraper finished successfully.
+2026-03-08 10:18:37,509 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-08 10:18:37,521 [INFO] - Lira - Loaded 0 unique products from existing CSV.
+2026-03-08 10:18:37,524 [INFO] - Lira - Starting scraper for Lira...
+2026-03-08 10:18:39,048 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-08 10:18:39,049 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-08 10:18:39,052 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-08 10:18:39,054 [INFO] - Lira - [1 New] Saved: Megalast Liquid Catsuit Lipstick (Give Me Mocha)
+2026-03-08 10:18:39,066 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 06:35:26,807 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:35:26,827 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-09 06:35:26,830 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-09 06:35:27,807 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:35:27,816 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-09 06:35:27,818 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-09 06:35:28,816 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:35:28,824 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-09 06:35:29,175 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-09 06:35:30,528 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:35:30,539 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-09 06:35:30,542 [ERROR] - Lira - Fatal error!
+Traceback (most recent call last):
+  File "/app/src/main.py", line 167, in <module>
+    asyncio.run(run())
+    ~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/src/main.py", line 100, in run
+    with open(csv_path, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/app/data/csvs/Lira_products.csv'
+2026-03-09 06:35:32,280 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:35:32,286 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-09 06:35:32,290 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 06:35:34,221 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-terracozy/
+2026-03-09 06:35:34,222 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:35:34,225 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 06:35:34,227 [INFO] - Lira - [1 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Terracozy)
+2026-03-09 06:35:34,548 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-09 06:35:34,549 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:35:34,552 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 06:35:34,554 [INFO] - Lira - ♻️ Update: Megalast Liquid Catsuit Lipstick (Give Me Mocha)
+2026-03-09 06:35:34,568 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 06:35:49,589 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:35:49,606 [INFO] - Lira - Loaded 2 unique products from existing CSV.
+2026-03-09 06:35:49,610 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 06:35:51,138 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-terracozy/
+2026-03-09 06:35:51,138 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:35:51,142 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 06:35:51,353 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-09 06:35:51,353 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:35:51,356 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 06:35:51,365 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 06:42:27,315 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:42:27,323 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 06:42:29,237 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-terracozy/
+2026-03-09 06:42:29,237 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:42:29,241 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 06:42:29,244 [INFO] - Lira - [1 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Terracozy)
+2026-03-09 06:42:29,644 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/megalast-liquid-catsuit-lipstick-give-me-mocha/
+2026-03-09 06:42:29,645 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:42:29,648 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 06:42:29,650 [INFO] - Lira - [2 New] Saved: Megalast Liquid Catsuit Lipstick (Give Me Mocha)
+2026-03-09 06:42:29,685 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 06:52:06,319 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 06:52:06,334 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 06:52:08,016 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-09 06:52:08,017 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 06:52:08,030 [INFO] - Lira - [1 New] Saved: 
+2026-03-09 06:52:08,043 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 07:00:27,353 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:00:27,362 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 07:00:29,290 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-09 07:00:29,290 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:00:29,296 [INFO] - LiraImportLtd - 🔍 Found 22 unique target links.
+2026-03-09 07:00:29,302 [INFO] - Lira - [1 New] Saved: 
+2026-03-09 07:00:30,562 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Ench_NewPKSHT_1000x1000_BL_Char_250ml_FOP_3d344032-345c-4f9a-9460-f950e7f05459-1-300x300.webp
+2026-03-09 07:00:30,563 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:30,563 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:30,571 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/11/vaseline-gluta-hya-flawless-glow-serum-in-lotion-200ml-2-300x300.jpg
+2026-03-09 07:00:30,572 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:30,572 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:30,912 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Neutral-Minimalist-Canvas-Wall-Art-Frame-Instagram-Post-1-300x300.jpg
+2026-03-09 07:00:30,913 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:30,913 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:31,074 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-16-at-2.36.33-PM-300x300.jpeg
+2026-03-09 07:00:31,075 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:31,075 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:31,506 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/page/2/
+2026-03-09 07:00:31,506 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:00:31,510 [INFO] - LiraImportLtd - 🔍 Found 22 unique target links.
+2026-03-09 07:00:31,515 [INFO] - Lira - [2 New] Saved: 
+2026-03-09 07:00:31,737 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/12/normal-dHbXxKegArsc9z2bg5SShLAJDdCoAa-300x300.jpg
+2026-03-09 07:00:31,738 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:31,738 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:31,740 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/1732706729761-300x300.webp
+2026-03-09 07:00:31,741 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:31,741 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:32,065 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-18-at-5.11.38-PM-300x300.jpeg
+2026-03-09 07:00:32,066 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:32,066 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:32,230 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/1283838_international-germany-product-nivea-sensual-musk-body-lotion-normal-to-dry-skin-400ml-300x300.jpeg
+2026-03-09 07:00:32,231 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:00:32,232 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:32,232 [INFO] - Lira - [3 New] Saved: 
+2026-03-09 07:00:32,669 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/12/Beige-Modern-Trendy-New-Exhibition-of-Art-Flyer-2-300x300.jpg
+2026-03-09 07:00:32,670 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:32,670 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:32,903 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/12/Beige-Modern-Trendy-New-Exhibition-of-Art-Flyer-300x300.jpg
+2026-03-09 07:00:32,903 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:32,903 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:32,905 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Ench_NewPKSHT_1000x1000_BL_Rom_250ml_FOP_aa199d39-c948-4880-98e8-bfef833e3785-300x300.webp
+2026-03-09 07:00:32,905 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:32,906 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:33,237 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/631fcbcc788e4175b26d07af412d58ce-web_1010x1180_transparent_png-300x300.webp
+2026-03-09 07:00:33,237 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:33,238 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:33,390 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/12/Beige-Modern-Trendy-New-Exhibition-of-Art-Flyer-3-300x300.jpg
+2026-03-09 07:00:33,390 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:33,390 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:34,116 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/enchanteur-perfumed-body-lotion-alluring-satin-smooth-250-ml-300x300.jpeg
+2026-03-09 07:00:34,116 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:34,117 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:34,123 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/IMG_4373-300x300.jpg
+2026-03-09 07:00:34,123 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:34,123 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:34,343 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Neutral-Minimalist-Canvas-Wall-Art-Frame-Instagram-Post-2-300x300.jpg
+2026-03-09 07:00:34,344 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:34,344 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:34,550 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/enchanteur-perfumed-body-lotion-enticing-satin-smooth-250-ml-300x300.jpeg
+2026-03-09 07:00:34,551 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:34,551 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:34,687 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Nivea-Natural-Glow-Body-Lotion-400ml-300x300.jpg
+2026-03-09 07:00:34,687 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:34,688 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:35,283 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Ench_NewPKSHT_1000x1000_BL_Char_250ml_FOP_3d344032-345c-4f9a-9460-f950e7f05459-300x300.webp
+2026-03-09 07:00:35,283 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:35,284 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:35,500 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/12/Stives-Soothing-Body-Lotion-621-Ml-Oatmeal-And-Shea-Butter-300x300.jpg
+2026-03-09 07:00:35,500 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:35,500 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:35,561 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/3423ee72e4a745fb8fe0e9f823b4ad3b-web_1010x1180_transparent_png-300x300.webp
+2026-03-09 07:00:35,562 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:35,562 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:35,781 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Dove-Body-Love-Essential-Care-48-HR-Body-Lotion-400ml-300x300.png
+2026-03-09 07:00:35,781 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:35,782 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:36,445 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/01/Aveeno-Baby-Soothing-Relief-Cream-300x300.jpeg
+2026-03-09 07:00:36,446 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:36,446 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:36,447 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-16-at-12.45.35-PM-300x300.jpeg
+2026-03-09 07:00:36,448 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:36,448 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:36,903 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/1_e4d80887-1154-48be-9824-abbf252c54e4_1200x1200-300x300.jpg
+2026-03-09 07:00:36,903 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:36,903 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:36,935 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/1228917_400-ml-dove-body-love-restoring-care-body-lotion-international-uk-product-used-for-male-female-300x300.jpeg
+2026-03-09 07:00:36,936 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:00:36,937 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:36,937 [INFO] - Lira - [4 New] Saved: 
+2026-03-09 07:00:37,250 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/en-300x300.jpg
+2026-03-09 07:00:37,251 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:37,251 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:37,598 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/DM_Body_Lotion_-_18oz-300x300.webp
+2026-03-09 07:00:37,599 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:37,599 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:37,661 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/12/St-Ives-Renewing-Body-Lotion-621-Ml-Collagen-And-Elastin-300x300.jpg
+2026-03-09 07:00:37,661 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:37,662 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:38,093 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-16-at-1.26.27-PM-300x300.jpeg
+2026-03-09 07:00:38,093 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:38,094 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:38,429 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-16-at-12.42.27-PM-300x300.jpeg
+2026-03-09 07:00:38,430 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:38,430 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:38,761 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/12/St-Ives-Hydrating-Body-Lotion-Vitamin-E-And-Avocado-621-Ml_5-300x300.jpg
+2026-03-09 07:00:38,762 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:38,762 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:38,824 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/12/Vaseline-Blue-Seal-Light-Hydrating-Jelly-Aloe-Fresh-250-Ml_1-300x300.jpg
+2026-03-09 07:00:38,825 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:38,825 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:39,445 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/page/3/
+2026-03-09 07:00:39,446 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:00:39,450 [INFO] - LiraImportLtd - 🔍 Found 20 unique target links.
+2026-03-09 07:00:39,454 [INFO] - Lira - [5 New] Saved: 
+2026-03-09 07:00:39,553 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/enchanteur-perfumed-body-lotion-gorgeous-satin-smooth-500-ml-300x300.jpeg
+2026-03-09 07:00:39,554 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:39,554 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:39,582 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/IMG_4382-300x300.jpg
+2026-03-09 07:00:39,583 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:39,583 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:40,216 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/lux-body-wash-french-rose-2-300x300.jpg
+2026-03-09 07:00:40,217 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:40,217 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:40,408 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/Lux-300x300.jpg
+2026-03-09 07:00:40,408 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:40,409 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:41,033 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/12/St-Ives-Softening-Body-Lotion-621-Ml-Coconut-And-Orchid-300x300.jpg
+2026-03-09 07:00:41,034 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:41,034 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:41,149 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/10/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC84NTMxMFwvODUzMTAtMS1rNXpicGsucG5nIiwiZWRpdHMiOltdfQ-300x300.jpg
+2026-03-09 07:00:41,150 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:41,150 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:41,203 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2025/06/Aveeno_Daily_Care_Baby_Hair_and_Body_Was-Aveeno_-20a9f-381985-300x300.png
+2026-03-09 07:00:41,204 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:41,204 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:41,379 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/11/Jergens-22908-Refreshing-Moisturizer-Lotion-400-Ml-Soothing-Aloe-300x300.jpg
+2026-03-09 07:00:41,379 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:41,380 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:41,568 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/11/Jergens-22907-Dry-Skin-Moisturizer-Lotion-400-Ml-Original-Scent-300x300.webp
+2026-03-09 07:00:41,568 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:41,569 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:42,359 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/11/CeraVe-20717-Sa-Lotion-For-Rough-And-Bumpy-Skin-237-Ml-300x300.jpg
+2026-03-09 07:00:42,360 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:42,360 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:42,362 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2022/12/2rrJeo2GjQAgaFWhbfJQiUpHWXNBBpMk4ipJHqWo-300x300.jpg
+2026-03-09 07:00:42,362 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:42,362 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:42,484 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/11/Daily-Moisturising-Lotion-Normal-To-Dry-Skin-237-Ml-300x300.jpg
+2026-03-09 07:00:42,484 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:42,485 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:42,585 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2022/09/Ribana-Saffron-Goats-Milk-Soap-300x300.jpg
+2026-03-09 07:00:42,585 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:42,586 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:42,739 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2023/12/product-300x300.jpg
+2026-03-09 07:00:42,740 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:00:42,741 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:42,742 [INFO] - Lira - [6 New] Saved: 
+2026-03-09 07:00:43,524 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2022/09/Ribana-Organic-Goats-Milk-Soap-300x300.jpg
+2026-03-09 07:00:43,524 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:43,525 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:43,755 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2022/12/Baby-Daily-Care-Moisturising-Lotion-150-Ml-300x300.jpg
+2026-03-09 07:00:43,756 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:43,756 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:43,958 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/10/LANEIGE-Lip-Sleeping-Mask-Berry-03-G-300x300.png
+2026-03-09 07:00:43,959 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:43,959 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:43,970 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2023/12/nivea-soft-light-moisturising-cream-100gm-2-300x300.jpg
+2026-03-09 07:00:43,971 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:43,971 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:44,057 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/10/Ribana-Olive-Oil-100-Ml-300x300.png
+2026-03-09 07:00:44,058 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:44,058 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:44,678 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2023/12/WhatsApp-Image-2025-11-29-at-5.25.38-PM-300x300.jpeg
+2026-03-09 07:00:44,678 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:44,679 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:44,971 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/09/Vaseline-Lotion-Healthy-Bright-300ml-300x300.jpg
+2026-03-09 07:00:44,972 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:44,972 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:45,147 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/10/vaseline-deep-restore-lotion-400ml-300x300.jpg
+2026-03-09 07:00:45,147 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:45,148 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:45,214 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/10/vaseline-deep-restore-lotion-300ml-300x300.jpg
+2026-03-09 07:00:45,215 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:45,215 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:45,263 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/10/vasline-deep-restore-lotion-200ml-300x300.jpg
+2026-03-09 07:00:45,264 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:45,264 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:45,884 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/12/Vaseline-Blue-Seal-Rich-Conditioning-Jelly-Cocoa-Butter-250-Ml-300x300.jpg
+2026-03-09 07:00:45,885 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:45,886 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:47,093 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/wp-content/uploads/2024/09/Lux-Body-Wash-Orange-Blossom-Vitamin-C-245ml-300x300.png
+2026-03-09 07:00:47,094 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-09 07:00:47,095 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:00:47,110 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 07:03:14,444 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:03:14,453 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 07:03:16,355 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-09 07:03:16,355 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:16,362 [INFO] - LiraImportLtd - 🔍 Found 21 unique target links.
+2026-03-09 07:03:16,367 [INFO] - Lira - [1 New] Saved: 
+2026-03-09 07:03:17,886 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/jergens-daily-moisture-lotion-with-silk-proteins-and-citrus-extracts/
+2026-03-09 07:03:17,886 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:17,892 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:17,894 [INFO] - Lira - [2 New] Saved: JERGENS Daily Moisture lotion with Silk Proteins and Citrus Extracts
+2026-03-09 07:03:17,973 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/enchanteur-perfumed-body-lotion-250ml-enticing/
+2026-03-09 07:03:17,973 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:17,979 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:17,981 [INFO] - Lira - [3 New] Saved: Enchanteur  Perfumed Body Lotion 250ml (Enticing)
+2026-03-09 07:03:18,128 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/enchanteur-perfumed-body-lotion-500ml-charming/
+2026-03-09 07:03:18,128 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:18,132 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:18,134 [INFO] - Lira - [4 New] Saved: Enchanteur Perfumed Body Lotion 500ml (Charming)
+2026-03-09 07:03:18,356 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/enchanteur-perfumed-body-lotion-250ml-romantic/
+2026-03-09 07:03:18,357 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:18,361 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:18,363 [INFO] - Lira - [5 New] Saved: Enchanteur perfumed body lotion 250ml (Romantic)
+2026-03-09 07:03:19,195 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/vaseline-gluta-hya-flawless-glow-serum-burst-lotion/
+2026-03-09 07:03:19,196 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:19,200 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:19,201 [INFO] - Lira - [6 New] Saved: Vaseline® Gluta-Hya Flawless Glow Serum Burst Lotion
+2026-03-09 07:03:19,581 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/enchanteur-perfumed-body-lotion-250ml-alluring/
+2026-03-09 07:03:19,582 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:19,586 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:19,588 [INFO] - Lira - [7 New] Saved: Enchanteur perfumed body lotion 250ml (Alluring)
+2026-03-09 07:03:19,719 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/nivea-express-hydration-body-lotion-380ml/
+2026-03-09 07:03:19,719 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:19,724 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:19,727 [INFO] - Lira - [8 New] Saved: Nivea 48 Hr 5 In 1 Complete Care Body Lotion (Express Hydration (380 Ml))
+2026-03-09 07:03:19,795 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/nivea-rich-nourishing-body-milk-dry-to-very-dry-skin-400ml/
+2026-03-09 07:03:19,795 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:19,799 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:19,801 [INFO] - Lira - [9 New] Saved: NIVEA Rich Nourishing Body Milk, Dry to Very Dry Skin 400ml
+2026-03-09 07:03:20,554 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/nivea-natural-glow-body-lotion-400ml/
+2026-03-09 07:03:20,555 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:03:20,559 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:03:20,562 [INFO] - Lira - [10 New] Saved: Nivea Natural Glow Body Lotion 400ml
+2026-03-09 07:03:20,562 [INFO] - Lira - Max item limit reached (10). Stopping.
+2026-03-09 07:03:20,576 [ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('Attempted to exit cancel scope in a different task than it was entered in')>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 331, in _stream
+    |     yield item
+    | GeneratorExit
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 327, in _stream
+    async with create_task_group() as tg:
+               ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 789, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 461, in __exit__
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+2026-03-09 07:03:20,580 [ERROR] - asyncio - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-3' coro=<<async_generator_athrow without __name__>()> exception=ValueError("<Token var=<ContextVar name='scrapling_logger' default=<Logger scrapling (INFO)> at 0x7b8751781d50> at 0x7b874f241840> was created in a different Context")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/spider.py", line 302, in stream
+    yield item
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/spider.py", line 305, in stream
+    reset_logger(token)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/scrapling/core/utils/_utils.py", line 58, in reset_logger
+    _current_logger.reset(token)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ValueError: <Token var=<ContextVar name='scrapling_logger' default=<Logger scrapling (INFO)> at 0x7b8751781d50> at 0x7b874f241840> was created in a different Context
+2026-03-09 07:03:20,582 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 07:12:38,572 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:12:38,582 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 07:12:40,166 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/toiletries/
+2026-03-09 07:12:40,167 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:12:40,182 [INFO] - Lira - [1 New] Saved: 
+2026-03-09 07:12:48,119 [INFO] - Lira - Scraper finished successfully.
+2026-03-09 07:13:55,473 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:13:56,343 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:13:57,236 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:13:58,296 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:13:59,783 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:14:02,073 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:14:05,941 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:14:13,038 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:14:26,527 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:14:53,214 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:15:45,199 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:16:45,925 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:48,462 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:49,407 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:50,322 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:51,470 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:52,964 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:55,240 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:17:59,481 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:18:06,888 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:18:20,538 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:18:47,318 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:19:39,218 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:20:40,172 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:21:41,005 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:22:41,743 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:23:42,636 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:24:43,482 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:25:44,377 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:26:45,228 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:27:46,070 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:28:46,918 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:29:47,804 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:30:48,711 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:31:49,830 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:32:50,822 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:33:51,638 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:34:52,495 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:35:53,323 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:36:54,258 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:37:55,139 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:38:55,984 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:39:56,889 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:40:57,893 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:41:58,770 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:42:59,597 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:44:00,604 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:45:01,722 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:48:08,500 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:49:09,200 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:50:09,943 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:51:10,664 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:52:11,458 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:54:32,952 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-09 07:54:32,976 [INFO] - Lira - Starting scraper for Lira...
+2026-03-09 07:54:36,313 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beaute-melasma-x-glutathione-brightening-tone-up-cream-45-ml/
+2026-03-09 07:54:36,313 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-09 07:54:36,318 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
+2026-03-09 07:54:36,321 [INFO] - Lira - [1 New] Saved: Beaute Melasma-X Glutathione Brightening Tone Up Cream 45 ml
+2026-03-09 07:54:36,355 [INFO] - Lira - Scraper finished successfully.
