@@ -2,8 +2,7 @@ import logging
 
 logger = logging.getLogger("LiraImportLtd")
 
-# Define the base structure specifically for this site if needed, 
-# or import a shared one if they are all identical.
+# Define the base structure
 BASE_PRODUCT = {
     "category_slug": "", 
     "product_name": "", 
@@ -73,41 +72,44 @@ def parse(response, seller_name, base_url, recurse=True):
         product["category_name"] = response.xpath('(//nav[@class="woocommerce-breadcrumb"]/a)[3]/text()').get("").strip()
         product['brand_name'] = response.xpath('//span[@class="product_brand"]/a/text()').get("").strip()
         product["brand_slug"] = product["brand_name"].lower().replace(" ", "-")
-        product["review_count"] = 0
+        product["review_count"] = "0"
         
         # Stock & Status
-        # stock_text = response.css('.product-status::text').get("").strip()
-        product["in_stock"] = "YES"
-        # product["seller_sku"] = response.css('.product-code::text').get("").strip()
-        product["seller_sku"] = ""
+        product["in_stock"] = "Yes"
         product["seller_name"] = seller_name
         product["base_url"] = base_url
         product["is_active"] = "1"
         product["seller_sku"] = response.xpath('(//span[@class="sku"])[1]/text()').get("").strip() 
+        
         overview_lines = response.xpath('//div[@aria-labelledby="tab-title-description"]//text()').getall()
         # Clean and join them with newlines to form a readable description block
         product["product_description"] = "".join([line.strip() for line in overview_lines if line.strip()])
+        
         yield product
     else:
         logger.info("🗂️ Category/Nav page detected.")
 
     # --- 2. LINK FOLLOWING ---
     if not recurse:
-        logger.info(f"🛑 Recursion is OFF. Stopping here.")
+        logger.info(f"🛑 Recursion is OFF. Not following links from: {response.url}")
         return
 
-
-    target_selectors = [
-        '//div[@class="images-slider-wrapper"]/a/@href',  # Products
-        '//a[@class="next page-numbers"]/@href'    # Pagination
+    # Use CSS Selectors for link harvesting. It handles multiple classes perfectly.
+    target_selectors =[
+        'h2.product-title a::attr(href)',             # Products (using the title link)
+        'a.woocommerce-LoopProduct-link::attr(href)', # Products (using the image link fallback)
+        'a.next.page-numbers::attr(href)'             # Pagination (Next button)
     ]
     
-    valid_links = response.xpath(', '.join(target_selectors)).getall()
+    # Combine using CSS comma syntax
+    valid_links = response.css(', '.join(target_selectors)).getall()
+    
+    # Remove duplicates from the page
     unique_links = list(set(valid_links))
     
-    logger.info(f"🔍 Found {len(unique_links)} unique target links.")
+    logger.info(f"🔍 Found {len(unique_links)} target links on this page.")
     
     for link in unique_links:
-        if any(ignored in link.lower() for ignored in ['/account', '/cart', '/checkout', '/login', 'javascript:', 'tel:', 'mailto:', "question", "review"]):
+        if any(ignored in link.lower() for ignored in['/account', '/cart', '/checkout', '/login', 'javascript:', 'tel:', 'mailto:', "question", "review"]):
             continue
         yield response.follow(link)

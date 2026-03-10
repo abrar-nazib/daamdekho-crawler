@@ -2,11 +2,9 @@
 services:
   # scraper-startech:
   #   build: .
-  #   container_name: scraper_startech
   #   restart: on-failure
   #   environment:
   #     - TARGET_DOMAIN=startech.com.bd
-  #     - RECURSE=False
   #     - SELLER_NAME=StarTech
   #     - CONCURRENCY=5
   #     - DELAY=1.2
@@ -17,7 +15,6 @@ services:
 
   # scraper-ryans:
   #   build: .
-  #   container_name: scraper_ryans
   #   restart: on-failure
   #   environment:
   #     - TARGET_DOMAIN=ryans.com
@@ -25,13 +22,10 @@ services:
   #     - CONCURRENCY=5
   #     - DELAY=1.1
   #     - MAX_DUPLICATES=1000
-  #     - MAX_ITEMS=100000 
-  #     - RECURSE=True
   #   volumes:
   #     - ./data:/app/data
   scraper-lira:
     build: .
-    container_name: scraper_lira
     restart: on-failure
     environment:
       - TARGET_DOMAIN=liraimportltd.com
@@ -39,7 +33,5 @@ services:
       - CONCURRENCY=5
       - DELAY=1.1
       - MAX_DUPLICATES=1000
-      - MAX_ITEMS=10 
-      - RECURSE=True
     volumes:
       - ./data:/app/data

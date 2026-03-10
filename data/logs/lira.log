@@ -957,3 +957,135 @@ ValueError: <Token var=<ContextVar name='scrapling_logger' default=<Logger scrap
 2026-03-09 07:54:36,318 [INFO] - LiraImportLtd - 🔍 Found 0 unique target links.
 2026-03-09 07:54:36,321 [INFO] - Lira - [1 New] Saved: Beaute Melasma-X Glutathione Brightening Tone Up Cream 45 ml
 2026-03-09 07:54:36,355 [INFO] - Lira - Scraper finished successfully.
+2026-03-10 15:07:00,205 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-10 15:07:00,206 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-10 15:07:00,207 [INFO] - Lira - Starting scraper for Lira...
+2026-03-10 15:07:01,704 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beaute-melasma-x-glutathione-brightening-tone-up-cream-45-ml/
+2026-03-10 15:07:01,704 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:07:01,708 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:07:01,709 [INFO] - Lira - ♻️ Update: Beaute Melasma-X Glutathione Brightening Tone Up Cream 45 ml
+2026-03-10 15:07:01,746 [INFO] - Lira - Scraper finished successfully.
+2026-03-10 15:08:26,830 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-10 15:08:26,830 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-10 15:08:26,831 [INFO] - Lira - Starting scraper for Lira...
+2026-03-10 15:08:28,267 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beaute-melasma-x-glutathione-brightening-tone-up-cream-45-ml/
+2026-03-10 15:08:28,267 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:08:28,270 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:08:28,273 [INFO] - Lira - Scraper finished successfully.
+2026-03-10 15:08:52,151 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-10 15:08:52,152 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-10 15:08:52,153 [INFO] - Lira - Starting scraper for Lira...
+2026-03-10 15:08:53,591 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beaute-melasma-x-glutathione-brightening-tone-up-cream-45-ml/
+2026-03-10 15:08:53,591 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:08:53,595 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:08:53,639 [INFO] - Lira - Scraper finished successfully.
+2026-03-10 15:09:19,696 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-10 15:09:19,697 [INFO] - Lira - Loaded 1 unique products from existing CSV.
+2026-03-10 15:09:19,698 [INFO] - Lira - Starting scraper for Lira...
+2026-03-10 15:09:21,123 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/
+2026-03-10 15:09:21,123 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-10 15:09:21,125 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-10 15:09:22,393 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-winter-woods/
+2026-03-10 15:09:22,393 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:22,398 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:22,400 [INFO] - Lira - [1 New] Saved: Dear Body Perfume (Winter Woods)
+2026-03-10 15:09:22,521 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-man-eau-de-toilette-100ml-transcendent/
+2026-03-10 15:09:22,521 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:22,526 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:22,528 [INFO] - Lira - [2 New] Saved: Revolution Man Eau De Toilette 100ml (Transcendent)
+2026-03-10 15:09:22,536 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-warm-pleasant/
+2026-03-10 15:09:22,536 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:22,542 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:22,550 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-body-mist-spray-revolutionary-noir-100-ml/
+2026-03-10 15:09:22,550 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:22,554 [INFO] - Lira - [3 New] Saved: Dear Body Perfume (Warm & Pleasant)
+2026-03-10 15:09:22,556 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:22,565 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-holiday-mood/
+2026-03-10 15:09:22,565 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:22,568 [INFO] - Lira - [4 New] Saved: Revolution Body Mist Spray (Revolutionary Noir (100 Ml)
+2026-03-10 15:09:22,570 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:22,572 [INFO] - Lira - [5 New] Saved: Dear Body Perfume (Holiday Mood)
+2026-03-10 15:09:23,649 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolutionary-eau-de-toilette-100ml/
+2026-03-10 15:09:23,650 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:23,653 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:23,655 [INFO] - Lira - [6 New] Saved: Revolutionary Eau De Toilette 100ml
+2026-03-10 15:09:23,728 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/perfume/page/2/
+2026-03-10 15:09:23,728 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-10 15:09:23,730 [INFO] - LiraImportLtd - 🔍 Found 5 target links on this page.
+2026-03-10 15:09:23,828 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-body-mist-spray-revolutionary-100-ml/
+2026-03-10 15:09:23,828 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:23,831 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:23,834 [INFO] - Lira - [7 New] Saved: Revolution Body Mist Spray (Revolutionary (100 Ml)
+2026-03-10 15:09:23,842 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-endless-missing/
+2026-03-10 15:09:23,842 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:23,853 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-la-vanilla/
+2026-03-10 15:09:23,853 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:23,858 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:23,863 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:23,865 [INFO] - Lira - [8 New] Saved: Dear Body Perfume (Endless Missing)
+2026-03-10 15:09:23,865 [INFO] - Lira - [9 New] Saved: Dear Body Perfume (la vanilla)
+2026-03-10 15:09:24,906 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-black-velvet/
+2026-03-10 15:09:24,906 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:24,909 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:24,911 [INFO] - Lira - [10 New] Saved: Dear Body perfume (Black Velvet)
+2026-03-10 15:09:24,979 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-romantic-beach/
+2026-03-10 15:09:24,979 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:24,983 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:24,985 [INFO] - Lira - [11 New] Saved: Dear Body Perfume (Romantic Beach)
+2026-03-10 15:09:25,021 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/dear-body-perfume-midnight-orchid/
+2026-03-10 15:09:25,021 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:25,026 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:25,028 [INFO] - Lira - [12 New] Saved: Dear Body Perfume (Midnight Orchid)
+2026-03-10 15:09:25,115 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/passion-eau-de-toilette-100ml/
+2026-03-10 15:09:25,115 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:25,119 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:25,121 [INFO] - Lira - [13 New] Saved: Passion Eau De Toilette 100ml
+2026-03-10 15:09:25,129 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-man-eau-de-toilette-100ml-carbon-pulse/
+2026-03-10 15:09:25,129 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:25,134 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:25,136 [INFO] - Lira - [14 New] Saved: Revolution Man Eau De Toilette 100ml (Carbon Pulse)
+2026-03-10 15:09:26,162 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/deodorant-spray-just-call-me/
+2026-03-10 15:09:26,162 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:26,167 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:26,169 [INFO] - Lira - [15 New] Saved: Deodorant Spray (Just Call Me)
+2026-03-10 15:09:26,234 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/deodorant-spray-200-ml-luxury/
+2026-03-10 15:09:26,234 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:26,238 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:26,240 [INFO] - Lira - [16 New] Saved: Deodorant Spray 200 Ml (Luxury)
+2026-03-10 15:09:26,278 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-body-mist-spray-timeless-100-ml/
+2026-03-10 15:09:26,278 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:26,283 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:26,292 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/i-heart-revolution-body-mist-sunset-paradise-236-ml/
+2026-03-10 15:09:26,292 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:26,295 [INFO] - Lira - [17 New] Saved: Revolution Body Mist Spray (Timeless (100 Ml)
+2026-03-10 15:09:26,297 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:26,301 [INFO] - Lira - [18 New] Saved: I Heart Revolution Body Mist (Sunset Paradise (236 Ml)
+2026-03-10 15:09:26,355 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/goddess-eau-de-toilette-100ml/
+2026-03-10 15:09:26,355 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:26,362 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:26,364 [INFO] - Lira - [19 New] Saved: Goddess Eau De Toilette 100ml
+2026-03-10 15:09:27,418 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-man-eau-de-toilette-100ml-limitless-noir/
+2026-03-10 15:09:27,418 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:27,422 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:27,424 [INFO] - Lira - [20 New] Saved: Revolution Man Eau De Toilette 100ml (Limitless Noir)
+2026-03-10 15:09:27,490 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/revolution-passion-purse-spray-10ml/
+2026-03-10 15:09:27,491 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:27,495 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:27,497 [INFO] - Lira - [21 New] Saved: Revolution Passion Purse Spray 10ml
+2026-03-10 15:09:27,523 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/floral-seduction-eau-de-toilette-100-ml/
+2026-03-10 15:09:27,523 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:27,527 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:27,530 [INFO] - Lira - [22 New] Saved: Floral Seduction Eau De Toilette 100 Ml
+2026-03-10 15:09:27,551 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/timeless-eau-de-toilette-100ml/
+2026-03-10 15:09:27,551 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:27,556 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:27,560 [INFO] - Lira - [23 New] Saved: Timeless Eau De Toilette 100ml
+2026-03-10 15:09:27,569 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/love-eau-de-toilette-100ml/
+2026-03-10 15:09:27,569 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:27,575 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:27,578 [INFO] - Lira - [24 New] Saved: Love Eau De Toilette 100ml
+2026-03-10 15:09:28,675 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/noir-eau-de-toilette-100ml/
+2026-03-10 15:09:28,675 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-10 15:09:28,679 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-10 15:09:28,681 [INFO] - Lira - [25 New] Saved: Noir Eau De Toilette 100ml
+2026-03-10 15:09:28,694 [INFO] - Lira - Scraper finished successfully.
