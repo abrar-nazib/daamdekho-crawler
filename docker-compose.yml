@@ -33,5 +33,6 @@ services:
       - CONCURRENCY=5
       - DELAY=1.1
       - MAX_DUPLICATES=1000
+      - MAX_ITEMS=1000000
     volumes:
       - ./data:/app/data

@@ -1089,3 +1089,471 @@ ValueError: <Token var=<ContextVar name='scrapling_logger' default=<Logger scrap
 2026-03-10 15:09:28,679 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
 2026-03-10 15:09:28,681 [INFO] - Lira - [25 New] Saved: Noir Eau De Toilette 100ml
 2026-03-10 15:09:28,694 [INFO] - Lira - Scraper finished successfully.
+2026-03-11 07:46:56,025 [INFO] - ParserLoader - ✅ Successfully loaded parser for liraimportltd.com
+2026-03-11 07:46:56,027 [INFO] - Lira - Starting scraper for Lira...
+2026-03-11 07:46:58,399 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/
+2026-03-11 07:46:58,399 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-11 07:46:58,402 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-11 07:47:00,554 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/anastasia-beverly-hills-eyeshadow-palette-modern-renaissance/
+2026-03-11 07:47:00,554 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:00,559 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:00,561 [INFO] - Lira - [1 New] Saved: Anastasia Beverly Hills Eyeshadow Palette (Modern Renaissance)
+2026-03-11 07:47:00,648 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/anastasia-beverley-hillslip-velvet-lipstick-parchment/
+2026-03-11 07:47:00,648 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:00,655 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:00,657 [INFO] - Lira - [2 New] Saved: Anastasia Beverley Hills	Lip Velvet Lipstick (Parchment)
+2026-03-11 07:47:00,668 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/mac-studio-fix-fluid-spf-15-24hr-matte-foundation-nc15-official/
+2026-03-11 07:47:00,668 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:00,674 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:00,677 [INFO] - Lira - [3 New] Saved: Mac Studio Fix Fluid Spf 15 24hr Matte Foundation (Nc15-Official)
+2026-03-11 07:47:00,732 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-cinnabelle/
+2026-03-11 07:47:00,732 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:00,738 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:00,740 [INFO] - Lira - [4 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Cinnabelle)
+2026-03-11 07:47:00,764 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-terracozy/
+2026-03-11 07:47:00,764 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:00,770 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:00,772 [INFO] - Lira - [5 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Terracozy)
+2026-03-11 07:47:02,775 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beauty-glazedlip-oil-102-kissy-2/
+2026-03-11 07:47:02,775 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:02,778 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:02,779 [INFO] - Lira - [6 New] Saved: Beauty Glazed	Lip Oil (102 Kissy)
+2026-03-11 07:47:02,853 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/mac-studio-fix-fluid-spf-15-24hr-matte-foundation-nc20-official/
+2026-03-11 07:47:02,853 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:02,858 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:02,860 [INFO] - Lira - [7 New] Saved: Mac Studio Fix Fluid Spf 15 24hr Matte Foundation (Nc20-Official)
+2026-03-11 07:47:02,874 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/anastasia-beverley-hillslip-velvet-mousse-lipstick-rosy-mauve/
+2026-03-11 07:47:02,874 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:02,879 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:02,880 [INFO] - Lira - [8 New] Saved: Anastasia Beverley Hills	Lip Velvet Mousse Lipstick (Rosy Mauve)
+2026-03-11 07:47:03,071 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/mac-macximal-matte-lipstick-verve-swerve-610/
+2026-03-11 07:47:03,071 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:03,075 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:03,077 [INFO] - Lira - [9 New] Saved: Mac Macximal Matte Lipstick (Verve Swerve 610)
+2026-03-11 07:47:03,112 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-molassine/
+2026-03-11 07:47:03,113 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:03,117 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:03,118 [INFO] - Lira - [10 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Molassine)
+2026-03-11 07:47:04,983 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-noirelle/
+2026-03-11 07:47:04,983 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:04,988 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:04,990 [INFO] - Lira - [11 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Noirelle)
+2026-03-11 07:47:05,078 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beauty-glazedlip-oil-101-meet/
+2026-03-11 07:47:05,078 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:05,085 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:05,087 [INFO] - Lira - [12 New] Saved: Beauty Glazed	Lip Oil (101 Meet)
+2026-03-11 07:47:05,285 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-florisse/
+2026-03-11 07:47:05,285 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:05,289 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:05,292 [INFO] - Lira - [13 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Florisse)
+2026-03-11 07:47:05,299 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beauty-glazedlip-oil-107-hugging/
+2026-03-11 07:47:05,300 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:05,305 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:05,307 [INFO] - Lira - [14 New] Saved: Beauty Glazed	Lip Oil (107 Hugging)
+2026-03-11 07:47:06,013 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-rouxette/
+2026-03-11 07:47:06,013 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:06,018 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:06,020 [INFO] - Lira - [15 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Rouxette)
+2026-03-11 07:47:07,429 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beauty-glazedlip-oil-102-kissy/
+2026-03-11 07:47:07,429 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:07,433 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:07,434 [INFO] - Lira - [16 New] Saved: Beauty Glazed	Lip Oil (103 Sweet)
+2026-03-11 07:47:07,581 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-rustique/
+2026-03-11 07:47:07,581 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:07,589 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:07,591 [INFO] - Lira - [17 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Rustique)
+2026-03-11 07:47:07,692 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-pralinette/
+2026-03-11 07:47:07,692 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:07,696 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:07,698 [INFO] - Lira - [18 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Pralinette)
+2026-03-11 07:47:07,860 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-crimsonite/
+2026-03-11 07:47:07,860 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:07,866 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:07,868 [INFO] - Lira - [19 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Crimsonite)
+2026-03-11 07:47:08,366 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/beauty-glazedlip-oil-106-fuse/
+2026-03-11 07:47:08,366 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:08,374 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:08,376 [INFO] - Lira - [20 New] Saved: Beauty Glazed	Lip Oil (105 Passion)
+2026-03-11 07:47:09,683 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/2/
+2026-03-11 07:47:09,683 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-11 07:47:09,685 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-11 07:47:13,996 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-turin/
+2026-03-11 07:47:13,996 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:14,000 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:14,001 [INFO] - Lira - [21 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Turin)
+2026-03-11 07:47:14,012 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-roma-05/
+2026-03-11 07:47:14,012 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:14,019 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:14,021 [INFO] - Lira - [22 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Roma (05))
+2026-03-11 07:47:14,038 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-sahara-velvet/
+2026-03-11 07:47:14,038 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:14,045 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:14,048 [INFO] - Lira - [23 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Sahara Velvet)
+2026-03-11 07:47:14,268 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/studio-perfect-velvet-glow-blush-rose-whisper/
+2026-03-11 07:47:14,268 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:14,272 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:14,274 [INFO] - Lira - [24 New] Saved: Studio Perfect Velvet Glow Blush (Rose Whisper)
+2026-03-11 07:47:14,660 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-porcelain-petal/
+2026-03-11 07:47:14,660 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:14,665 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:14,666 [INFO] - Lira - [25 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Porcelain Petal)
+2026-03-11 07:47:18,406 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/studio-perfect-velvet-glow-blush-passion-berry/
+2026-03-11 07:47:18,406 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:18,412 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:18,414 [INFO] - Lira - [26 New] Saved: Studio Perfect Velvet Glow Blush (Passion Berry)
+2026-03-11 07:47:18,422 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-venice-04/
+2026-03-11 07:47:18,422 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:18,429 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:18,432 [INFO] - Lira - [27 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Venice (04))
+2026-03-11 07:47:18,456 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-verona-03/
+2026-03-11 07:47:18,456 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:18,462 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:18,465 [INFO] - Lira - [28 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Verona (03))
+2026-03-11 07:47:18,905 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-setting-spray-16-hr-50-ml-matteitude/
+2026-03-11 07:47:18,905 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:18,909 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:18,911 [INFO] - Lira - [29 New] Saved: Aarla Milano Studio Perfect Setting Spray 16 Hr (50 Ml) (Matteitude)
+2026-03-11 07:47:19,216 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-setting-spray-16-hr-50-ml-dewytude/
+2026-03-11 07:47:19,216 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:19,221 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:19,222 [INFO] - Lira - [30 New] Saved: Aarla Milano Studio Perfect Setting Spray 16 Hr (50 Ml) (Dewytude)
+2026-03-11 07:47:21,466 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-velvet-glow-blush-coral-tempt/
+2026-03-11 07:47:21,466 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:21,471 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:21,473 [INFO] - Lira - [31 New] Saved: Aarla Milano Studio Perfect Velvet Glow Blush (Coral Tempt)
+2026-03-11 07:47:21,987 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-opal-aura/
+2026-03-11 07:47:21,987 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:21,993 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:22,002 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-emria-silk/
+2026-03-11 07:47:22,003 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:22,006 [INFO] - Lira - [32 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Opal Aura)
+2026-03-11 07:47:22,009 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:22,011 [INFO] - Lira - [33 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Emria Silk)
+2026-03-11 07:47:22,110 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-velvet-glow-blush-hotshot-pink/
+2026-03-11 07:47:22,111 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:22,117 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:22,119 [INFO] - Lira - [34 New] Saved: Aarla Milano Studio Perfect Velvet Glow Blush (Hotshot Pink)
+2026-03-11 07:47:22,792 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-golden-dunes/
+2026-03-11 07:47:22,792 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:22,798 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:22,799 [INFO] - Lira - [35 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Golden Dunes)
+2026-03-11 07:47:24,340 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-desert-luxe/
+2026-03-11 07:47:24,340 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:24,344 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:24,346 [INFO] - Lira - [36 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Desert Luxe)
+2026-03-11 07:47:24,423 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-velvet-glow-blush-peach-tease/
+2026-03-11 07:47:24,423 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:24,428 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:24,430 [INFO] - Lira - [37 New] Saved: Aarla Milano Studio Perfect Velvet Glow Blush (Peach Tease)
+2026-03-11 07:47:25,464 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-sienna/
+2026-03-11 07:47:25,464 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:25,468 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:25,470 [INFO] - Lira - [38 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Sienna)
+2026-03-11 07:47:25,869 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-matte-finish-powder-majestic-sands/
+2026-03-11 07:47:25,869 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:25,873 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:25,875 [INFO] - Lira - [39 New] Saved: Aarla Milano Studio Perfect Seamless Matte Finish Powder (Majestic Sands)
+2026-03-11 07:47:26,491 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/3/
+2026-03-11 07:47:26,491 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-11 07:47:26,493 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-11 07:47:26,897 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-velvetude-lumineux-lip-color-caramella/
+2026-03-11 07:47:26,898 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:26,901 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:26,903 [INFO] - Lira - [40 New] Saved: Aarla Milano Velvetude Lumineux Lip Color (Caramella)
+2026-03-11 07:47:28,843 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-brown-bite-04/
+2026-03-11 07:47:28,843 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:28,847 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:28,850 [INFO] - Lira - [41 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Brown Bite (04))
+2026-03-11 07:47:28,856 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-naples/
+2026-03-11 07:47:28,856 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:28,861 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:28,864 [INFO] - Lira - [42 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Naples)
+2026-03-11 07:47:28,920 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-cherry-cup-02/
+2026-03-11 07:47:28,920 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:28,924 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:28,927 [INFO] - Lira - [43 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Cherry Cup (02))
+2026-03-11 07:47:28,995 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/4/
+2026-03-11 07:47:28,995 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-11 07:47:28,997 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-11 07:47:29,137 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-finish-concealer-sunlit-amber-05/
+2026-03-11 07:47:29,137 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:29,146 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:29,149 [INFO] - Lira - [44 New] Saved: Aarla Milano Studio Perfect Seamless Finish Concealer (Sunlit Amber (05))
+2026-03-11 07:47:31,026 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-pisa/
+2026-03-11 07:47:31,026 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:31,031 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:31,033 [INFO] - Lira - [45 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Pisa)
+2026-03-11 07:47:31,062 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-finish-concealer-golden-honey-03/
+2026-03-11 07:47:31,062 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:31,069 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:31,073 [INFO] - Lira - [46 New] Saved: Aarla Milano Studio Perfect Seamless Finish Concealer (Golden Honey (03))
+2026-03-11 07:47:31,101 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-finish-concealer-vanilla-creme-01/
+2026-03-11 07:47:31,101 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:31,107 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:31,110 [INFO] - Lira - [47 New] Saved: Aarla Milano Studio Perfect Seamless Finish Concealer (Vanilla Creme (01))
+2026-03-11 07:47:31,166 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-ginger-pop-10/
+2026-03-11 07:47:31,166 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:31,170 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:31,172 [INFO] - Lira - [48 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Ginger Pop (10))
+2026-03-11 07:47:31,337 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-mauve-tart-09/
+2026-03-11 07:47:31,337 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:31,345 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:31,348 [INFO] - Lira - [49 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Mauve Tart (09))
+2026-03-11 07:47:33,256 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-finish-concealer-beige-radiance-02/
+2026-03-11 07:47:33,256 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:33,263 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:33,269 [INFO] - Lira - [50 New] Saved: Aarla Milano Studio Perfect Seamless Finish Concealer (Beige Radiance (02))
+2026-03-11 07:47:33,277 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-finish-concealer-butterscotch-glow-04/
+2026-03-11 07:47:33,278 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:33,290 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-spice-up-07/
+2026-03-11 07:47:33,290 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:33,303 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-latina/
+2026-03-11 07:47:33,303 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:33,310 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:33,314 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:33,319 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:33,321 [INFO] - Lira - [51 New] Saved: Aarla Milano Studio Perfect Seamless Finish Concealer (Butterscotch Glow (04))
+2026-03-11 07:47:33,321 [INFO] - Lira - [52 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Spice Up (07))
+2026-03-11 07:47:33,322 [INFO] - Lira - [53 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Latina)
+2026-03-11 07:47:33,657 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-amalfi/
+2026-03-11 07:47:33,657 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:33,662 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:33,664 [INFO] - Lira - [54 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Amalfi)
+2026-03-11 07:47:35,500 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/studio-perfect-pout-gel-lipliner-nude-truffle-08/
+2026-03-11 07:47:35,501 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:35,515 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-plum-pie-01/
+2026-03-11 07:47:35,515 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:35,526 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:35,534 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:35,539 [INFO] - Lira - [55 New] Saved: Aarla-Milano-Studio Perfect Pout Gel Lipliner (Nude Truffle (08))
+2026-03-11 07:47:35,554 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-foundation-florence-08/
+2026-03-11 07:47:35,554 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:35,571 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-coffee-fix-05/
+2026-03-11 07:47:35,571 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:35,578 [INFO] - Lira - [56 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Plum Pie (01))
+2026-03-11 07:47:35,581 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:35,587 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:35,590 [INFO] - Lira - [57 New] Saved: Aarla Milano Studio Perfect Seamless Foundation (Florence (08))
+2026-03-11 07:47:35,590 [INFO] - Lira - [58 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Coffee Fix (05))
+2026-03-11 07:47:35,840 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-seamless-finish-concealer-sunset-orange-06/
+2026-03-11 07:47:35,841 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:35,850 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:35,855 [INFO] - Lira - [59 New] Saved: Aarla Milano Studio Perfect Seamless Finish Concealer (Sunset Orange (06))
+2026-03-11 07:47:37,707 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-sultry/
+2026-03-11 07:47:37,707 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:37,715 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:37,718 [INFO] - Lira - [60 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Sultry)
+2026-03-11 07:47:37,744 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-chesnutte-06/
+2026-03-11 07:47:37,744 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:37,752 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:37,754 [INFO] - Lira - [61 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Chesnutte (06))
+2026-03-11 07:47:37,875 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-toffee-blend/
+2026-03-11 07:47:37,875 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:37,879 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:37,881 [INFO] - Lira - [62 New] Saved: Aarla Milano Signature Matte Liquid Lip (Toffee Blend)
+2026-03-11 07:47:37,944 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-tease/
+2026-03-11 07:47:37,945 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:37,952 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:37,955 [INFO] - Lira - [63 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Tease)
+2026-03-11 07:47:38,292 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-vixen/
+2026-03-11 07:47:38,293 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:38,298 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:38,301 [INFO] - Lira - [64 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Vixen)
+2026-03-11 07:47:39,767 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-poppy/
+2026-03-11 07:47:39,767 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:39,772 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:39,774 [INFO] - Lira - [65 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Poppy)
+2026-03-11 07:47:39,899 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-get-a-grip-hydro-glow-primer-grip-primer/
+2026-03-11 07:47:39,899 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:39,905 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:39,908 [INFO] - Lira - [66 New] Saved: Aarla Milano Studio Perfect Get A Grip Hydro Glow Primer (Grip Primer)
+2026-03-11 07:47:40,105 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-rogue/
+2026-03-11 07:47:40,105 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:40,109 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:40,112 [INFO] - Lira - [67 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Rogue)
+2026-03-11 07:47:40,352 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/5/
+2026-03-11 07:47:40,352 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-11 07:47:40,355 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-11 07:47:40,467 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-flame/
+2026-03-11 07:47:40,467 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:40,472 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:40,475 [INFO] - Lira - [68 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Flame)
+2026-03-11 07:47:41,739 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-charmer/
+2026-03-11 07:47:41,739 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:41,743 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:41,745 [INFO] - Lira - [69 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Charmer)
+2026-03-11 07:47:41,999 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-posh/
+2026-03-11 07:47:41,999 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:42,004 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:42,006 [INFO] - Lira - [70 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Posh)
+2026-03-11 07:47:42,243 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-femme/
+2026-03-11 07:47:42,243 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:42,249 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:42,251 [INFO] - Lira - [71 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Femme)
+2026-03-11 07:47:42,466 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-siren/
+2026-03-11 07:47:42,466 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:42,471 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:42,472 [INFO] - Lira - [72 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Siren)
+2026-03-11 07:47:42,636 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-pout-gel-lipliner-berry-cake-03/
+2026-03-11 07:47:42,636 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:42,640 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:42,643 [INFO] - Lira - [73 New] Saved: Aarla Milano Studio Perfect Pout Gel Lipliner (Berry Cake (03))
+2026-03-11 07:47:43,714 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-matteitude-fix-and-blur-primer-matte-primer/
+2026-03-11 07:47:43,714 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:43,719 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:43,722 [INFO] - Lira - [74 New] Saved: Aarla Milano Studio Perfect Matteitude Fix And Blur Primer (Matte Primer)
+2026-03-11 07:47:44,106 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-mattelock-waterproof-eyeliner-midnight-black/
+2026-03-11 07:47:44,106 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:44,110 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:44,113 [INFO] - Lira - [75 New] Saved: Aarla Milano Studio Perfect Mattelock Waterproof Eyeliner (Midnight Black)
+2026-03-11 07:47:44,405 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-lover/
+2026-03-11 07:47:44,405 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:44,409 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:44,411 [INFO] - Lira - [76 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Lover)
+2026-03-11 07:47:44,586 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-diva/
+2026-03-11 07:47:44,586 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:44,591 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:44,593 [INFO] - Lira - [77 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Diva)
+2026-03-11 07:47:44,749 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-preppy/
+2026-03-11 07:47:44,749 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:44,756 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:44,759 [INFO] - Lira - [78 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Preppy)
+2026-03-11 07:47:45,570 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-fierce/
+2026-03-11 07:47:45,570 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:45,574 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:45,576 [INFO] - Lira - [79 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Fierce)
+2026-03-11 07:47:46,258 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-studio-perfect-intenso-matte-slim-lip-temptress/
+2026-03-11 07:47:46,258 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:46,264 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:46,267 [INFO] - Lira - [80 New] Saved: Aarla Milano Studio Perfect Intenso Matte Slim Lip (Temptress)
+2026-03-11 07:47:46,423 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-burnt-honey/
+2026-03-11 07:47:46,423 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:46,430 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:46,433 [INFO] - Lira - [81 New] Saved: Aarla Milano Signature Matte Liquid Lip (Burnt Honey)
+2026-03-11 07:47:46,667 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-chai-latte/
+2026-03-11 07:47:46,668 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:46,672 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:46,674 [INFO] - Lira - [82 New] Saved: Aarla Milano Signature Matte Liquid Lip (Chai Latte)
+2026-03-11 07:47:46,753 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-choco-cloud/
+2026-03-11 07:47:46,753 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:46,757 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:46,760 [INFO] - Lira - [83 New] Saved: Aarla Milano Signature Matte Liquid Lip (Choco Cloud)
+2026-03-11 07:47:47,485 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-cappucinite/
+2026-03-11 07:47:47,485 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:47,490 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:47,493 [INFO] - Lira - [84 New] Saved: Aarla Milano Signature Matte Liquid Lip (Cappucinite)
+2026-03-11 07:47:48,425 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-cafe-gorgeous/
+2026-03-11 07:47:48,426 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:48,432 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:48,434 [INFO] - Lira - [85 New] Saved: Aarla Milano Signature Matte Liquid Lip (Cafe Gorgeous)
+2026-03-11 07:47:48,590 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product-category/makeup/page/6/
+2026-03-11 07:47:48,590 [INFO] - LiraImportLtd - 🗂️ Category/Nav page detected.
+2026-03-11 07:47:48,592 [INFO] - LiraImportLtd - 🔍 Found 21 target links on this page.
+2026-03-11 07:47:48,762 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-lengthening-and-volumizing-mascara-lash-enchante/
+2026-03-11 07:47:48,762 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:48,767 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:48,770 [INFO] - Lira - [86 New] Saved: Aarla Milano Lengthening And Volumizing Mascara (Lash Enchante)
+2026-03-11 07:47:48,831 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-iced-cocoa/
+2026-03-11 07:47:48,831 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:48,836 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:48,839 [INFO] - Lira - [87 New] Saved: Aarla Milano Signature Matte Liquid Lip (Iced Cocoa)
+2026-03-11 07:47:49,470 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-spiced-plum/
+2026-03-11 07:47:49,470 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:49,477 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:49,480 [INFO] - Lira - [88 New] Saved: Aarla Milano Signature Matte Liquid Lip (Spiced Plum)
+2026-03-11 07:47:50,459 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-coffee-devotion/
+2026-03-11 07:47:50,459 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:50,465 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:50,468 [INFO] - Lira - [89 New] Saved: Aarla Milano Signature Matte Liquid Lip (Coffee Devotion)
+2026-03-11 07:47:50,720 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-berry-loved/
+2026-03-11 07:47:50,720 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:50,726 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:50,729 [INFO] - Lira - [90 New] Saved: Aarla Milano Signature Matte Liquid Lip (Berry Loved)
+2026-03-11 07:47:50,740 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-sweet-shot/
+2026-03-11 07:47:50,741 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:50,746 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:50,750 [INFO] - Lira - [91 New] Saved: Aarla Milano Signature Matte Liquid Lip (Sweet Shot)
+2026-03-11 07:47:50,884 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-macchiato-dust/
+2026-03-11 07:47:50,884 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:50,892 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:50,895 [INFO] - Lira - [92 New] Saved: Aarla Milano Signature Matte Liquid Lip (Macchiato Dust)
+2026-03-11 07:47:51,593 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-cinnamon-whip/
+2026-03-11 07:47:51,594 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:51,601 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:51,604 [INFO] - Lira - [93 New] Saved: Aarla Milano Signature Matte Liquid Lip (Cinnamon Whip)
+2026-03-11 07:47:52,506 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-toasted-mauve/
+2026-03-11 07:47:52,506 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:52,513 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:52,516 [INFO] - Lira - [94 New] Saved: Aarla Milano Signature Matte Liquid Lip (Toasted Mauve)
+2026-03-11 07:47:52,730 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-drizzled-rose/
+2026-03-11 07:47:52,730 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:52,739 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:52,743 [INFO] - Lira - [95 New] Saved: Aarla Milano Signature Matte Liquid Lip (Drizzled Rose)
+2026-03-11 07:47:52,771 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-chili-creme/
+2026-03-11 07:47:52,772 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:52,778 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:52,782 [INFO] - Lira - [96 New] Saved: Aarla Milano Signature Matte Liquid Lip (Chili Creme)
+2026-03-11 07:47:52,843 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-brown-sugar/
+2026-03-11 07:47:52,844 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:52,849 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:52,852 [INFO] - Lira - [97 New] Saved: Aarla Milano Signature Matte Liquid Lip (Brown Sugar)
+2026-03-11 07:47:53,670 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-amber-roast/
+2026-03-11 07:47:53,670 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:53,676 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:53,679 [INFO] - Lira - [98 New] Saved: Aarla Milano Signature Matte Liquid Lip (Amber Roast)
+2026-03-11 07:47:54,480 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-mocha-drip/
+2026-03-11 07:47:54,480 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:54,486 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:54,489 [INFO] - Lira - [99 New] Saved: Aarla Milano Signature Matte Liquid Lip (Mocha Drip)
+2026-03-11 07:47:54,859 [INFO] - LiraImportLtd - 🌍 Visiting URL: https://liraimportltd.com/product/aarla-milano-signature-matte-liquid-lip-blush-brunch/
+2026-03-11 07:47:54,859 [INFO] - LiraImportLtd - 🛒 Product page detected! Extracting data...
+2026-03-11 07:47:54,864 [INFO] - LiraImportLtd - 🔍 Found 0 target links on this page.
+2026-03-11 07:47:54,867 [INFO] - Lira - [100 New] Saved: Aarla Milano Signature Matte Liquid Lip (Blush Brunch)
+2026-03-11 07:47:54,867 [INFO] - Lira - Max item limit reached (100). Stopping.
+2026-03-11 07:47:54,874 [ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('Attempted to exit cancel scope in a different task than it was entered in')>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 331, in _stream
+    |     yield item
+    | GeneratorExit
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 327, in _stream
+    async with create_task_group() as tg:
+               ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 789, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 461, in __exit__
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+2026-03-11 07:47:54,877 [ERROR] - asyncio - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-3' coro=<<async_generator_athrow without __name__>()> exception=ValueError("<Token var=<ContextVar name='scrapling_logger' default=<Logger scrapling (INFO)> at 0x7fc0af439d50> at 0x7fc0ada43900> was created in a different Context")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/spider.py", line 302, in stream
+    yield item
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/spider.py", line 305, in stream
+    reset_logger(token)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/scrapling/core/utils/_utils.py", line 58, in reset_logger
+    _current_logger.reset(token)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ValueError: <Token var=<ContextVar name='scrapling_logger' default=<Logger scrapling (INFO)> at 0x7fc0af439d50> at 0x7fc0ada43900> was created in a different Context
+2026-03-11 07:47:54,879 [INFO] - Lira - Scraper finished successfully.

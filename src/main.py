@@ -18,7 +18,7 @@ TARGET_DOMAIN = env("TARGET_DOMAIN", default="example.com")
 SELLER_NAME = env("SELLER_NAME", default="Unknown")
 CONCURRENCY = env.int("CONCURRENCY", default=1)
 DELAY = env.float("DELAY", default=2.0)
-MAX_ITEMS = env.int("MAX_ITEMS", default=100)
+MAX_ITEMS = env.int("MAX_ITEMS", default=1000000)
 MAX_CONSECUTIVE_DUPLICATES = env.int("MAX_DUPLICATES", default=50)
 RECURSE = env.bool("RECURSE", default=True)
 
