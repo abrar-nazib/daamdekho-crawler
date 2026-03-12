@@ -1,0 +1,934 @@
+2026-03-11 11:39:33,136 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:39:33,137 [INFO] - KireiBD - Loaded 24 unique products from existing CSV.
+2026-03-11 11:39:33,137 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED for this crawl.
+2026-03-11 11:39:33,137 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:39:36,543 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:39:36,544 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:39:36,544 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 11:39:36,545 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 11:39:36,545 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 11:39:36,545 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 11:39:36,548 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 11:39:37,109 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands&page=16
+2026-03-11 11:39:37,109 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:39:37,109 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:39:37,109 [WARNING] - KireiBD - RAW PAGE: 
+2026-03-11 11:39:38,690 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 11:39:38,691 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:39,151 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 11:39:39,152 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:39,668 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 11:39:39,668 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:40,156 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 11:39:40,156 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:40,710 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 11:39:40,711 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:41,723 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 11:39:41,723 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:42,154 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 11:39:42,155 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:43,686 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 11:39:43,686 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:44,177 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 11:39:44,178 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:44,623 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 11:39:44,623 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:45,051 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 11:39:45,051 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:45,490 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 11:39:45,491 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:45,493 [INFO] - KireiBD - ♻️ Update: Niacide Cream 30g
+2026-03-11 11:39:45,931 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 11:39:45,932 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:46,347 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 11:39:46,347 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:47,372 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 11:39:47,372 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:47,374 [INFO] - KireiBD - ♻️ Update: The Remedist by Dr Rhazes Gentle Sunscreen-SPF 50+ PA++++ 50m
+2026-03-11 11:39:47,898 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 11:39:47,898 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:48,575 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 11:39:48,576 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:49,103 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 11:39:49,103 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:49,538 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 11:39:49,539 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:50,025 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 11:39:50,026 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:50,030 [INFO] - KireiBD - ♻️ Update: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 11:39:50,570 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 11:39:50,571 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:51,063 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 11:39:51,064 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:51,555 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 11:39:51,556 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:52,014 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 11:39:52,015 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:39:52,139 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:41:06,439 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:41:06,440 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED for this crawl.
+2026-03-11 11:41:06,440 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:41:09,853 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:41:09,853 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:41:09,854 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 11:41:09,854 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 11:41:09,855 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 11:41:09,855 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 11:41:09,857 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 11:41:10,372 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands&page=16
+2026-03-11 11:41:10,372 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:41:10,373 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:41:10,373 [WARNING] - KireiBD - RAW PAGE: 
+2026-03-11 11:41:11,545 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 11:41:11,546 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:11,554 [INFO] - KireiBD - [1 New] Saved: Sunonomics SunScreen Silicone Gel SPF50 PA+++ 50ml
+2026-03-11 11:41:12,003 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 11:41:12,004 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:12,006 [INFO] - KireiBD - [2 New] Saved: Faironomics Gel 40ml
+2026-03-11 11:41:12,465 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 11:41:12,466 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:12,468 [INFO] - KireiBD - [3 New] Saved: The Remedist by Dr Rhazes Gentle Sunscreen-SPF 50+ PA++++ 50m
+2026-03-11 11:41:13,017 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 11:41:13,017 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:13,019 [INFO] - KireiBD - [4 New] Saved: G Anti Acne Gel 30g
+2026-03-11 11:41:13,549 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 11:41:13,550 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:13,552 [INFO] - KireiBD - [5 New] Saved: Skya Accutane Anti_Acne Serum 30ml
+2026-03-11 11:41:14,028 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 11:41:14,028 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:14,032 [INFO] - KireiBD - [6 New] Saved: Skya Pellucid- N10 Niacinamide Serum 10 20ml
+2026-03-11 11:41:15,287 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 11:41:15,288 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:15,292 [INFO] - KireiBD - [7 New] Saved: Skya Transformation Face Cream 20gm
+2026-03-11 11:41:15,966 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 11:41:15,967 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:15,970 [INFO] - KireiBD - [8 New] Saved: Skya ESSONE Ultra Matter Dry Touch Silicone Sunscreen Gel SPF 50+ PA++++ 50g
+2026-03-11 11:41:16,389 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 11:41:16,390 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:16,392 [INFO] - KireiBD - [9 New] Saved: SKYA Moisturizing Cream For Distressed Dry,Itchy & Irritated Skin 75ml
+2026-03-11 11:41:17,696 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 11:41:17,696 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:17,698 [INFO] - KireiBD - [10 New] Saved: The Remedist by Dr Rhazes Folliverse Hair Regrowth Kit 160ml
+2026-03-11 11:41:18,134 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 11:41:18,135 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:18,138 [INFO] - KireiBD - [11 New] Saved: Skya AMVEL-pH Cleansing, Brightening & Moisturizing Syndet Bar 75g
+2026-03-11 11:41:18,614 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 11:41:18,615 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:18,617 [INFO] - KireiBD - [12 New] Saved: The Remedist by Dr Rhazes Hyaluronic Acid Facewash 100ml
+2026-03-11 11:41:19,142 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 11:41:19,142 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:19,145 [INFO] - KireiBD - [13 New] Saved: Skya ACCUREX OIL FREE Moisturizer 100ml
+2026-03-11 11:41:19,713 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 11:41:19,714 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:19,716 [INFO] - KireiBD - [14 New] Saved: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 11:41:20,153 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 11:41:20,154 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:20,156 [INFO] - KireiBD - [15 New] Saved: GM TRUM Anti Acne Serum 15gm
+2026-03-11 11:41:20,646 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 11:41:20,647 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:20,649 [INFO] - KireiBD - [16 New] Saved: Redsyl AHF Anti-Hairall Shampoo 100ml
+2026-03-11 11:41:21,335 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 11:41:21,336 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:21,340 [INFO] - KireiBD - [17 New] Saved: Skya HAIRTHRIVE Hair Growth Vitalizer Serum 75ml
+2026-03-11 11:41:21,849 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 11:41:21,850 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:21,856 [INFO] - KireiBD - [18 New] Saved: GM-60 Facewash 60g
+2026-03-11 11:41:22,393 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 11:41:22,393 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:22,396 [INFO] - KireiBD - [19 New] Saved: Acne Rid Serum 50ml
+2026-03-11 11:41:23,603 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 11:41:23,603 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:23,607 [INFO] - KireiBD - [20 New] Saved: The Remedist by Dr Rhazes Age Reversal Face Serum 30ml
+2026-03-11 11:41:24,100 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 11:41:24,102 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:24,110 [INFO] - KireiBD - [21 New] Saved: Niacide Cream 30g
+2026-03-11 11:41:24,531 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 11:41:24,532 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:24,536 [INFO] - KireiBD - [22 New] Saved: Skya ACCUTANE Anti-Acne Oil Control Face Wash for Rejuvenating Skin 100ml
+2026-03-11 11:41:25,037 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 11:41:25,038 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:25,040 [INFO] - KireiBD - [23 New] Saved: VRH HairOnomics ADR Shampoo 100ml
+2026-03-11 11:41:26,265 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 11:41:26,265 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:41:26,267 [INFO] - KireiBD - [24 New] Saved: Aesthetic Derma Primaderm XPERTSUN™ Urban 50 ml
+2026-03-11 11:41:26,332 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:42:26,381 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:42:26,381 [INFO] - KireiBD - Loaded 24 unique products from existing CSV.
+2026-03-11 11:42:26,382 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED for this crawl.
+2026-03-11 11:42:26,382 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:42:29,396 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:42:29,397 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:42:29,397 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:42:29,397 [WARNING] - KireiBD - RAW PAGE: 
+2026-03-11 11:42:29,918 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands&page=16
+2026-03-11 11:42:29,918 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:42:29,919 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:42:29,919 [WARNING] - KireiBD - RAW PAGE: 
+2026-03-11 11:42:29,986 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:45:02,154 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:45:02,155 [INFO] - KireiBD - Loaded 24 unique products from existing CSV.
+2026-03-11 11:45:02,155 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED for this crawl.
+2026-03-11 11:45:02,155 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:45:05,572 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:45:05,573 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:45:05,573 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 11:45:05,574 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 11:45:05,574 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 11:45:05,575 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 11:45:05,577 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 11:45:06,121 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands&page=16
+2026-03-11 11:45:06,121 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:45:06,122 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:45:07,258 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 11:45:07,259 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:07,736 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 11:45:07,736 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:08,171 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 11:45:08,172 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:08,632 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 11:45:08,633 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:09,279 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 11:45:09,279 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:09,281 [INFO] - KireiBD - ♻️ Update: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 11:45:09,726 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 11:45:09,727 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:09,730 [INFO] - KireiBD - ♻️ Update: Aesthetic Derma Primaderm XPERTSUN™ Urban 50 ml
+2026-03-11 11:45:10,238 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 11:45:10,239 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:10,631 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 11:45:10,631 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:11,110 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 11:45:11,111 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:11,115 [INFO] - KireiBD - ♻️ Update: Skya Transformation Face Cream 20gm
+2026-03-11 11:45:11,557 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 11:45:11,558 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:12,435 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 11:45:12,435 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:12,440 [INFO] - KireiBD - ♻️ Update: Niacide Cream 30g
+2026-03-11 11:45:12,991 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 11:45:12,992 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:13,471 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 11:45:13,473 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:13,949 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 11:45:13,950 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:13,952 [INFO] - KireiBD - ♻️ Update: The Remedist by Dr Rhazes Age Reversal Face Serum 30ml
+2026-03-11 11:45:14,360 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 11:45:14,361 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:14,764 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 11:45:14,765 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:15,765 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 11:45:15,765 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:16,198 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 11:45:16,199 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:16,738 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 11:45:16,739 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:16,742 [INFO] - KireiBD - ♻️ Update: The Remedist by Dr Rhazes Folliverse Hair Regrowth Kit 160ml
+2026-03-11 11:45:17,220 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 11:45:17,220 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:17,699 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 11:45:17,699 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:18,267 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 11:45:18,268 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:18,728 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 11:45:18,728 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:19,188 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 11:45:19,188 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:19,294 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:45:36,367 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:45:36,368 [INFO] - KireiBD - Loaded 24 unique products from existing CSV.
+2026-03-11 11:45:36,368 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED for this crawl.
+2026-03-11 11:45:36,368 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:45:39,491 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:45:39,491 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:45:39,492 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 11:45:39,492 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 11:45:39,493 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 11:45:39,493 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 11:45:39,495 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 11:45:40,006 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands&page=16
+2026-03-11 11:45:40,006 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:45:40,007 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:45:40,007 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands_page_16.html
+2026-03-11 11:45:41,870 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 11:45:41,871 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:42,319 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 11:45:42,320 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:42,816 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 11:45:42,817 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:42,819 [INFO] - KireiBD - ♻️ Update: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 11:45:43,318 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 11:45:43,319 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:43,783 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 11:45:43,784 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:44,249 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 11:45:44,249 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:44,794 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 11:45:44,795 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:45,310 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 11:45:45,310 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:45,763 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 11:45:45,764 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:46,321 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 11:45:46,322 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:46,734 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 11:45:46,735 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:46,740 [INFO] - KireiBD - ♻️ Update: Niacide Cream 30g
+2026-03-11 11:45:47,147 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 11:45:47,147 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:47,701 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 11:45:47,702 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:48,177 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 11:45:48,177 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:48,598 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 11:45:48,598 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:49,055 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 11:45:49,056 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:49,626 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 11:45:49,627 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:50,174 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 11:45:50,174 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:50,643 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 11:45:50,644 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:51,052 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 11:45:51,052 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:51,504 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 11:45:51,504 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:51,928 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 11:45:51,929 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:53,146 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 11:45:53,147 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:53,150 [INFO] - KireiBD - ♻️ Update: Skya ACCUTANE Anti-Acne Oil Control Face Wash for Rejuvenating Skin 100ml
+2026-03-11 11:45:53,727 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 11:45:53,728 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:45:53,830 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:46:47,072 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:46:47,073 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED for this crawl.
+2026-03-11 11:46:47,073 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:46:49,997 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:46:49,997 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:46:49,998 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:46:49,998 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_doctor-cosmetics.html
+2026-03-11 11:46:50,518 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 11:46:50,518 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:46:50,519 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:46:50,519 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands.html
+2026-03-11 11:46:50,622 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:53:29,283 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:53:29,284 [INFO] - KireiBD - Loaded 0 unique products from existing CSV.
+2026-03-11 11:53:29,284 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 11:53:29,284 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:53:29,699 [ERROR] - KireiBD - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/app/src/main.py", line 133, in run
+  |     async for item in spider.stream():
+  |     ...<39 lines>...
+  |                 return
+  |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/spider.py", line 301, in stream
+  |     async for item in self._engine:
+  |         yield item
+  |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 327, in _stream
+  |     async with create_task_group() as tg:
+  |                ~~~~~~~~~~~~~~~~~^^
+  |   File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 323, in run
+    |     await self.crawl()
+    |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 243, in crawl
+    |     async for request in self.spider.start_requests():
+    |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    | TypeError: 'async for' requires an object with __aiter__ method, got generator
+    +------------------------------------
+2026-03-11 11:53:29,701 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:54:09,446 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:54:09,447 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 11:54:09,447 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:54:09,857 [ERROR] - KireiBD - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/app/src/main.py", line 133, in run
+  |     async for item in spider.stream():
+  |     ...<39 lines>...
+  |                 return
+  |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/spider.py", line 301, in stream
+  |     async for item in self._engine:
+  |         yield item
+  |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 327, in _stream
+  |     async with create_task_group() as tg:
+  |                ~~~~~~~~~~~~~~~~~^^
+  |   File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 323, in run
+    |     await self.crawl()
+    |   File "/usr/local/lib/python3.13/site-packages/scrapling/spiders/engine.py", line 243, in crawl
+    |     async for request in self.spider.start_requests():
+    |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    | TypeError: 'async for' requires an object with __aiter__ method, got generator
+    +------------------------------------
+2026-03-11 11:54:09,860 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:55:50,862 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:55:50,863 [INFO] - KireiBD - Loaded 0 unique products from existing CSV.
+2026-03-11 11:55:50,863 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 11:55:50,863 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:55:54,192 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:55:54,193 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:55:54,193 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 11:55:54,193 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 11:55:54,194 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 11:55:54,194 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 11:55:54,196 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 11:55:55,950 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 11:55:55,950 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:55,955 [INFO] - KireiBD - [1 New] Saved: G Anti Acne Gel 30g
+2026-03-11 11:55:56,420 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 11:55:56,420 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:56,423 [INFO] - KireiBD - [2 New] Saved: VRH HairOnomics ADR Shampoo 100ml
+2026-03-11 11:55:56,876 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 11:55:56,876 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:56,879 [INFO] - KireiBD - [3 New] Saved: Skya Transformation Face Cream 20gm
+2026-03-11 11:55:57,339 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 11:55:57,340 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:57,343 [INFO] - KireiBD - [4 New] Saved: GM TRUM Anti Acne Serum 15gm
+2026-03-11 11:55:57,812 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 11:55:57,813 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:57,816 [INFO] - KireiBD - [5 New] Saved: SKYA Moisturizing Cream For Distressed Dry,Itchy & Irritated Skin 75ml
+2026-03-11 11:55:58,284 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 11:55:58,285 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:58,289 [INFO] - KireiBD - [6 New] Saved: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 11:55:58,928 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 11:55:58,930 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:58,932 [INFO] - KireiBD - [7 New] Saved: The Remedist by Dr Rhazes Age Reversal Face Serum 30ml
+2026-03-11 11:55:59,861 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 11:55:59,862 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:55:59,867 [INFO] - KireiBD - [8 New] Saved: Sunonomics SunScreen Silicone Gel SPF50 PA+++ 50ml
+2026-03-11 11:56:00,313 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 11:56:00,313 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:00,316 [INFO] - KireiBD - [9 New] Saved: Skya ESSONE Ultra Matter Dry Touch Silicone Sunscreen Gel SPF 50+ PA++++ 50g
+2026-03-11 11:56:01,388 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 11:56:01,389 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:01,391 [INFO] - KireiBD - [10 New] Saved: Acne Rid Serum 50ml
+2026-03-11 11:56:03,337 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 11:56:03,337 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:03,339 [INFO] - KireiBD - [11 New] Saved: Redsyl AHF Anti-Hairall Shampoo 100ml
+2026-03-11 11:56:03,799 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 11:56:03,800 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:03,803 [INFO] - KireiBD - [12 New] Saved: Skya ACCUTANE Anti-Acne Oil Control Face Wash for Rejuvenating Skin 100ml
+2026-03-11 11:56:04,304 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 11:56:04,305 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:04,308 [INFO] - KireiBD - [13 New] Saved: Aesthetic Derma Primaderm XPERTSUN™ Urban 50 ml
+2026-03-11 11:56:04,778 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 11:56:04,779 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:04,782 [INFO] - KireiBD - [14 New] Saved: The Remedist by Dr Rhazes Hyaluronic Acid Facewash 100ml
+2026-03-11 11:56:05,986 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 11:56:05,987 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:05,990 [INFO] - KireiBD - [15 New] Saved: Skya Accutane Anti_Acne Serum 30ml
+2026-03-11 11:56:06,493 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 11:56:06,493 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:06,499 [INFO] - KireiBD - [16 New] Saved: Skya HAIRTHRIVE Hair Growth Vitalizer Serum 75ml
+2026-03-11 11:56:06,990 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 11:56:06,991 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:06,997 [INFO] - KireiBD - [17 New] Saved: The Remedist by Dr Rhazes Gentle Sunscreen-SPF 50+ PA++++ 50m
+2026-03-11 11:56:07,467 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 11:56:07,468 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:07,474 [INFO] - KireiBD - [18 New] Saved: GM-60 Facewash 60g
+2026-03-11 11:56:07,939 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 11:56:07,940 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:07,942 [INFO] - KireiBD - [19 New] Saved: Niacide Cream 30g
+2026-03-11 11:56:08,467 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 11:56:08,468 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:08,470 [INFO] - KireiBD - [20 New] Saved: The Remedist by Dr Rhazes Folliverse Hair Regrowth Kit 160ml
+2026-03-11 11:56:08,952 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 11:56:08,953 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:08,955 [INFO] - KireiBD - [21 New] Saved: Faironomics Gel 40ml
+2026-03-11 11:56:09,429 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 11:56:09,429 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:09,431 [INFO] - KireiBD - [22 New] Saved: Skya Pellucid- N10 Niacinamide Serum 10 20ml
+2026-03-11 11:56:09,965 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 11:56:09,966 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:09,970 [INFO] - KireiBD - [23 New] Saved: Skya ACCUREX OIL FREE Moisturizer 100ml
+2026-03-11 11:56:10,450 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 11:56:10,451 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:56:10,454 [INFO] - KireiBD - [24 New] Saved: Skya AMVEL-pH Cleansing, Brightening & Moisturizing Syndet Bar 75g
+2026-03-11 11:56:10,554 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:56:34,301 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:56:34,302 [INFO] - KireiBD - Loaded 24 unique products from existing CSV.
+2026-03-11 11:56:34,303 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 11:56:34,303 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:56:37,415 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:56:37,415 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:56:37,416 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:56:37,416 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_doctor-cosmetics.html
+2026-03-11 11:56:37,951 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 11:56:37,952 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:56:37,952 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:56:37,952 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands.html
+2026-03-11 11:56:38,038 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:57:02,199 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:57:02,200 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 11:57:02,200 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:57:04,542 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:57:04,542 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:57:04,543 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:57:04,543 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_doctor-cosmetics.html
+2026-03-11 11:57:05,865 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 11:57:05,865 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:57:05,866 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 11:57:05,866 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-badge">-18%</div><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width=
+2026-03-11 11:57:05,867 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 11:57:05,867 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 11:57:05,869 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 11:57:07,556 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-romantic-perfumed-deo-spray-150ml
+2026-03-11 11:57:07,557 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:07,560 [INFO] - KireiBD - [1 New] Saved: Enchanteur Romantic Perfumed Deo Spray 150ml
+2026-03-11 11:57:08,040 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-moisturizing-cream-pump-453g
+2026-03-11 11:57:08,040 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:08,043 [INFO] - KireiBD - [2 New] Saved: Cerave Moisturizing Cream Pump 453g
+2026-03-11 11:57:08,544 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-acne-control-cleanser-473ml
+2026-03-11 11:57:08,545 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:08,548 [INFO] - KireiBD - [3 New] Saved: Cerave Acne Control Cleanser 473ml
+2026-03-11 11:57:09,073 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-gentle-hydrating-conditioner-266ml
+2026-03-11 11:57:09,073 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:09,077 [INFO] - KireiBD - [4 New] Saved: Cerave Gentle Hydrating Conditioner 266ml
+2026-03-11 11:57:09,581 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-renewing-sa-cleanser-473ml-1
+2026-03-11 11:57:09,581 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:09,587 [INFO] - KireiBD - [5 New] Saved: Cerave Renewing SA Cleanser 473ml
+2026-03-11 11:57:10,034 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-anti-dandruff-hydrating-conditioner-266ml
+2026-03-11 11:57:10,035 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:10,041 [INFO] - KireiBD - [6 New] Saved: Cerave Anti-Dandruff Hydrating Conditioner 266ml
+2026-03-11 11:57:10,505 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/simple-biodegradable-cleansing-wipes-twin-pack-20-wipes
+2026-03-11 11:57:10,505 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:10,509 [INFO] - KireiBD - [7 New] Saved: Simple Biodegradable Cleansing Wipes Twin Pack 20 Wipes
+2026-03-11 11:57:11,039 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-acne-control-cleanser-355ml
+2026-03-11 11:57:11,039 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:11,043 [INFO] - KireiBD - [8 New] Saved: Cerave Acne Control Cleanser 355ml
+2026-03-11 11:57:11,461 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-473ml
+2026-03-11 11:57:11,461 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:11,464 [INFO] - KireiBD - [9 New] Saved: Cerave Foaming Facial Cleanser For Normal to Oily Skin 473ml
+2026-03-11 11:57:11,910 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/nivea-refreshingly-soft-moisturzing-cream-vegan-formula-200ml
+2026-03-11 11:57:11,910 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:11,914 [INFO] - KireiBD - [10 New] Saved: Nivea Refreshingly Soft Moisturzing Cream Vegan Formula 200ml
+2026-03-11 11:57:12,472 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-ordinary-100-l-ascorbic-acid-powder-20g
+2026-03-11 11:57:12,473 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:12,475 [INFO] - KireiBD - [11 New] Saved: The Ordinary 100% L-Ascorbic Acid Powder 20g
+2026-03-11 11:57:12,879 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/w7-liquid-eyeliner-pot-8ml-black
+2026-03-11 11:57:12,880 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:12,882 [INFO] - KireiBD - [12 New] Saved: W7 Liquid Eyeliner Pot 8ml - Black
+2026-03-11 11:57:13,314 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-hydrating-foaming-oil-cleanser-237ml
+2026-03-11 11:57:13,315 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:13,318 [INFO] - KireiBD - [13 New] Saved: CeraVe Hydrating Foaming Oil Cleanser 237ml
+2026-03-11 11:57:13,840 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/l-oreal-elvive-colour-protect-anti-brassiness-purple-shampoo-200ml
+2026-03-11 11:57:13,841 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:13,843 [INFO] - KireiBD - [14 New] Saved: L'Oreal Elvive Colour Protect Anti Brassiness Purple Shampoo 200ml
+2026-03-11 11:57:14,278 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-enticing-perfumed-body-lotion-250ml
+2026-03-11 11:57:14,278 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:14,281 [INFO] - KireiBD - [15 New] Saved: Enchanteur Enticing Perfumed Body Lotion 250ml
+2026-03-11 11:57:15,543 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-charming-anti-perspirant-perfumed-deo-roll-on-50ml
+2026-03-11 11:57:15,544 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:15,548 [INFO] - KireiBD - [16 New] Saved: Enchanteur Charming Anti Perspirant Perfumed Deo Roll-On 50ml
+2026-03-11 11:57:16,005 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-healing-ointment-85g
+2026-03-11 11:57:16,006 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:16,016 [INFO] - KireiBD - [17 New] Saved: Cerave Healing Ointment 85g
+2026-03-11 11:57:16,484 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-sa-lotion-for-rough-bumpy-skin-237ml
+2026-03-11 11:57:16,485 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:16,490 [INFO] - KireiBD - [18 New] Saved: Cerave SA Lotion For Rough & Bumpy Skin 237ml
+2026-03-11 11:57:17,895 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/esscnce-lash-princess-flash-lash-effect-waterproof-mascara-12ml
+2026-03-11 11:57:17,896 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:17,899 [INFO] - KireiBD - [19 New] Saved: Essence Lash Princess Falsh Lash Effect Waterproof Mascara 12ml
+2026-03-11 11:57:18,373 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-face-wash-hydrating-facial-cleanser-for-normal-to-dry-skin-473-mml
+2026-03-11 11:57:18,373 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:18,383 [INFO] - KireiBD - [20 New] Saved: Cerave Hydrating Facial Cleanser for Normal to Dry Skin 473ml
+2026-03-11 11:57:18,824 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-diabetisc-dry-skin-relief-moisturizing-cream-236ml
+2026-03-11 11:57:18,825 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:18,828 [INFO] - KireiBD - [21 New] Saved: Cerave Diabetisc Dry Skin Relief Moisturizing Cream 236ml
+2026-03-11 11:57:19,381 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-charming-perfumed-deo-spray-150ml
+2026-03-11 11:57:19,382 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:19,385 [INFO] - KireiBD - [22 New] Saved: Enchanteur Charming Perfumed Deo Spray 150ml
+2026-03-11 11:57:19,811 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/loreal-casting-creame-gloss-contioning-hair-color-360-black-cherry
+2026-03-11 11:57:19,812 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:19,815 [INFO] - KireiBD - [23 New] Saved: L'Oreal Casting Creme Gloss No Amonia Conditioning Colour - 360 Black Cherry
+2026-03-11 11:57:20,261 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cetaphil-gentle-skin-cleanser-125ml
+2026-03-11 11:57:20,262 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 11:57:20,266 [INFO] - KireiBD - [24 New] Saved: Cetaphil Gentle Skin Cleanser Dry to Normal, SensitiveSkin 125ml
+2026-03-11 11:57:20,362 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 11:58:59,757 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 11:58:59,758 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 11:58:59,758 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 11:59:02,779 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 11:59:02,779 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:59:02,779 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:59:02,780 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_doctor-cosmetics.html
+2026-03-11 11:59:03,436 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 11:59:03,436 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 11:59:03,436 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 11:59:03,436 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands.html
+2026-03-11 11:59:03,549 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 12:02:27,813 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 12:02:27,814 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 12:02:27,814 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 12:02:32,098 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 12:02:32,098 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:02:32,099 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 12:02:32,099 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 12:02:32,100 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 12:02:32,100 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 12:02:32,102 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 12:02:32,602 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 12:02:32,602 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:02:32,603 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 12:02:32,603 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands.html
+2026-03-11 12:02:34,551 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 12:02:34,551 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:34,555 [INFO] - KireiBD - [1 New] Saved: The Remedist by Dr Rhazes Age Reversal Face Serum 30ml
+2026-03-11 12:02:35,028 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 12:02:35,028 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:35,031 [INFO] - KireiBD - [2 New] Saved: Skya Pellucid- N10 Niacinamide Serum 10 20ml
+2026-03-11 12:02:35,525 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 12:02:35,526 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:35,529 [INFO] - KireiBD - [3 New] Saved: Faironomics Gel 40ml
+2026-03-11 12:02:35,941 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 12:02:35,941 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:35,944 [INFO] - KireiBD - [4 New] Saved: Skya AMVEL-pH Cleansing, Brightening & Moisturizing Syndet Bar 75g
+2026-03-11 12:02:36,513 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 12:02:36,513 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:36,516 [INFO] - KireiBD - [5 New] Saved: Acne Rid Serum 50ml
+2026-03-11 12:02:36,939 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 12:02:36,939 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:36,942 [INFO] - KireiBD - [6 New] Saved: The Remedist by Dr Rhazes Gentle Sunscreen-SPF 50+ PA++++ 50m
+2026-03-11 12:02:37,445 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 12:02:37,445 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:37,448 [INFO] - KireiBD - [7 New] Saved: Skya Transformation Face Cream 20gm
+2026-03-11 12:02:37,995 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 12:02:37,996 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:37,998 [INFO] - KireiBD - [8 New] Saved: The Remedist by Dr Rhazes Hyaluronic Acid Facewash 100ml
+2026-03-11 12:02:38,455 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 12:02:38,456 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:38,458 [INFO] - KireiBD - [9 New] Saved: Skya ACCUTANE Anti-Acne Oil Control Face Wash for Rejuvenating Skin 100ml
+2026-03-11 12:02:38,969 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 12:02:38,970 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:38,972 [INFO] - KireiBD - [10 New] Saved: Skya Accutane Anti_Acne Serum 30ml
+2026-03-11 12:02:39,483 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 12:02:39,484 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:39,487 [INFO] - KireiBD - [11 New] Saved: Skya HAIRTHRIVE Hair Growth Vitalizer Serum 75ml
+2026-03-11 12:02:39,979 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 12:02:39,979 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:39,982 [INFO] - KireiBD - [12 New] Saved: Skya ACCUREX OIL FREE Moisturizer 100ml
+2026-03-11 12:02:40,487 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 12:02:40,488 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:40,490 [INFO] - KireiBD - [13 New] Saved: GM TRUM Anti Acne Serum 15gm
+2026-03-11 12:02:40,933 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 12:02:40,934 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:40,940 [INFO] - KireiBD - [14 New] Saved: Redsyl AHF Anti-Hairall Shampoo 100ml
+2026-03-11 12:02:41,394 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 12:02:41,395 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:41,397 [INFO] - KireiBD - [15 New] Saved: Sunonomics SunScreen Silicone Gel SPF50 PA+++ 50ml
+2026-03-11 12:02:41,928 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 12:02:41,928 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:41,931 [INFO] - KireiBD - [16 New] Saved: The Remedist by Dr Rhazes Folliverse Hair Regrowth Kit 160ml
+2026-03-11 12:02:42,451 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 12:02:42,452 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:42,454 [INFO] - KireiBD - [17 New] Saved: G Anti Acne Gel 30g
+2026-03-11 12:02:42,901 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 12:02:42,902 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:42,904 [INFO] - KireiBD - [18 New] Saved: Aesthetic Derma Primaderm XPERTSUN™ Urban 50 ml
+2026-03-11 12:02:43,410 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 12:02:43,411 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:43,414 [INFO] - KireiBD - [19 New] Saved: GM-60 Facewash 60g
+2026-03-11 12:02:44,254 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 12:02:44,256 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:44,263 [INFO] - KireiBD - [20 New] Saved: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 12:02:44,693 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 12:02:44,694 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:44,698 [INFO] - KireiBD - [21 New] Saved: SKYA Moisturizing Cream For Distressed Dry,Itchy & Irritated Skin 75ml
+2026-03-11 12:02:45,308 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 12:02:45,308 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:45,310 [INFO] - KireiBD - [22 New] Saved: VRH HairOnomics ADR Shampoo 100ml
+2026-03-11 12:02:45,924 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 12:02:45,925 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:45,927 [INFO] - KireiBD - [23 New] Saved: Niacide Cream 30g
+2026-03-11 12:02:46,477 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 12:02:46,477 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:02:46,480 [INFO] - KireiBD - [24 New] Saved: Skya ESSONE Ultra Matter Dry Touch Silicone Sunscreen Gel SPF 50+ PA++++ 50g
+2026-03-11 12:02:46,595 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 12:31:14,867 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 12:31:14,868 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 12:31:14,868 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 12:31:18,651 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 12:31:18,651 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:31:18,652 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 12:31:18,652 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 12:31:18,653 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 12:31:18,653 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 12:31:18,655 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 12:31:19,227 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 12:31:19,227 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:31:19,228 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 12:31:19,228 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands.html
+2026-03-11 12:31:21,299 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 12:31:21,300 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:21,306 [INFO] - KireiBD - [1 New] Saved: Skya ACCUTANE Anti-Acne Oil Control Face Wash for Rejuvenating Skin 100ml
+2026-03-11 12:31:21,759 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 12:31:21,760 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:21,762 [INFO] - KireiBD - [2 New] Saved: Skya HAIRTHRIVE Hair Growth Vitalizer Serum 75ml
+2026-03-11 12:31:22,289 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 12:31:22,290 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:22,293 [INFO] - KireiBD - [3 New] Saved: Redsyl AHF Anti-Hairall Shampoo 100ml
+2026-03-11 12:31:22,749 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 12:31:22,750 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:22,752 [INFO] - KireiBD - [4 New] Saved: G Anti Acne Gel 30g
+2026-03-11 12:31:23,849 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 12:31:23,849 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:23,852 [INFO] - KireiBD - [5 New] Saved: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 12:31:25,040 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 12:31:25,040 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:25,044 [INFO] - KireiBD - [6 New] Saved: SKYA Moisturizing Cream For Distressed Dry,Itchy & Irritated Skin 75ml
+2026-03-11 12:31:25,446 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 12:31:25,446 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:25,450 [INFO] - KireiBD - [7 New] Saved: The Remedist by Dr Rhazes Age Reversal Face Serum 30ml
+2026-03-11 12:31:26,578 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 12:31:26,579 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:26,584 [INFO] - KireiBD - [8 New] Saved: Skya Accutane Anti_Acne Serum 30ml
+2026-03-11 12:31:27,081 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 12:31:27,082 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:27,085 [INFO] - KireiBD - [9 New] Saved: The Remedist by Dr Rhazes Folliverse Hair Regrowth Kit 160ml
+2026-03-11 12:31:27,583 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 12:31:27,584 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:27,587 [INFO] - KireiBD - [10 New] Saved: Skya ACCUREX OIL FREE Moisturizer 100ml
+2026-03-11 12:31:28,186 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 12:31:28,187 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:28,190 [INFO] - KireiBD - [11 New] Saved: VRH HairOnomics ADR Shampoo 100ml
+2026-03-11 12:31:28,625 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 12:31:28,626 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:28,629 [INFO] - KireiBD - [12 New] Saved: Skya AMVEL-pH Cleansing, Brightening & Moisturizing Syndet Bar 75g
+2026-03-11 12:31:29,051 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 12:31:29,052 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:29,056 [INFO] - KireiBD - [13 New] Saved: Faironomics Gel 40ml
+2026-03-11 12:31:29,551 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 12:31:29,552 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:29,554 [INFO] - KireiBD - [14 New] Saved: Skya ESSONE Ultra Matter Dry Touch Silicone Sunscreen Gel SPF 50+ PA++++ 50g
+2026-03-11 12:31:30,091 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 12:31:30,092 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:30,094 [INFO] - KireiBD - [15 New] Saved: The Remedist by Dr Rhazes Gentle Sunscreen-SPF 50+ PA++++ 50m
+2026-03-11 12:31:30,800 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 12:31:30,801 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:30,804 [INFO] - KireiBD - [16 New] Saved: GM-60 Facewash 60g
+2026-03-11 12:31:31,334 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 12:31:31,335 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:31,338 [INFO] - KireiBD - [17 New] Saved: The Remedist by Dr Rhazes Hyaluronic Acid Facewash 100ml
+2026-03-11 12:31:31,917 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 12:31:31,917 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:31,920 [INFO] - KireiBD - [18 New] Saved: Acne Rid Serum 50ml
+2026-03-11 12:31:32,492 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 12:31:32,493 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:32,495 [INFO] - KireiBD - [19 New] Saved: Sunonomics SunScreen Silicone Gel SPF50 PA+++ 50ml
+2026-03-11 12:31:32,836 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 12:31:32,837 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:32,841 [INFO] - KireiBD - [20 New] Saved: Skya Pellucid- N10 Niacinamide Serum 10 20ml
+2026-03-11 12:31:33,495 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 12:31:33,496 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:33,500 [INFO] - KireiBD - [21 New] Saved: Skya Transformation Face Cream 20gm
+2026-03-11 12:31:33,918 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 12:31:33,919 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:33,922 [INFO] - KireiBD - [22 New] Saved: GM TRUM Anti Acne Serum 15gm
+2026-03-11 12:31:34,385 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 12:31:34,385 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:34,388 [INFO] - KireiBD - [23 New] Saved: Aesthetic Derma Primaderm XPERTSUN™ Urban 50 ml
+2026-03-11 12:31:35,035 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 12:31:35,036 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:31:35,039 [INFO] - KireiBD - [24 New] Saved: Niacide Cream 30g
+2026-03-11 12:31:35,124 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 12:40:27,842 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 12:40:27,843 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED.
+2026-03-11 12:40:27,843 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 12:40:31,914 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 12:40:31,914 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:40:31,915 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 12:40:31,915 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_doctor-cosmetics.html
+2026-03-11 12:40:34,419 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 12:40:34,419 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:40:34,420 [WARNING] - KireiBD - ⚠️ No product grids found! Printing full page body snippet to debug.
+2026-03-11 12:40:34,421 [INFO] - KireiBD - 📝 Full page HTML saved to: /app/data/debug/https___kireibd.com_shop_category_international-brands.html
+2026-03-11 12:40:34,504 [INFO] - KireiBD - Scraper finished successfully.
+2026-03-11 12:46:34,913 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 12:46:34,914 [INFO] - KireiBD - Loaded 0 unique products from existing CSV.
+2026-03-11 12:46:34,914 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED with network_idle=True.
+2026-03-11 12:46:34,915 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 12:48:10,851 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 12:48:10,851 [INFO] - KireiBD - Loaded 0 unique products from existing CSV.
+2026-03-11 12:48:10,852 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED with network_idle=True.
+2026-03-11 12:48:10,852 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 12:48:34,810 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=doctor-cosmetics
+2026-03-11 12:48:34,810 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:48:34,811 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 12:48:34,812 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" widt
+2026-03-11 12:48:34,813 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 12:48:34,813 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 12:48:34,815 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 12:48:57,627 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/shop?category=international-brands
+2026-03-11 12:48:57,628 [INFO] - KireiBD - 🗂️ Listing/Nav page detected.
+2026-03-11 12:48:57,628 [INFO] - KireiBD - 🔄 Scanning listing page... Found 24 'div.product__item' blocks.
+2026-03-11 12:48:57,628 [INFO] - KireiBD - 🧐 RAW HTML of first item (First 300 chars): <div class="product__item product__item--style2"><div class="product__item-inner"><div class="product__item-badge">-18%</div><div class="product__item-wishlist"><button class="product-details__fav-btn border-0" aria-label="Toggle Wishlist"><svg stroke="currentColor" fill="currentColor" stroke-width=
+2026-03-11 12:48:57,629 [INFO] - KireiBD - 🔍 DEBUG Extract -> Thumbs: 24, Titles: 24, Pagination: 0
+2026-03-11 12:48:57,629 [INFO] - KireiBD - 🔍 Total unique target links: 24
+2026-03-11 12:48:57,631 [INFO] - KireiBD - ✅ Added 24 links to queue.
+2026-03-11 12:49:20,787 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-serum-30ml
+2026-03-11 12:49:20,788 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:49:20,794 [INFO] - KireiBD - [1 New] Saved: Skya Accutane Anti_Acne Serum 30ml
+2026-03-11 12:49:43,502 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-hairthrive-hair-growth-vitalizer-serum-75ml
+2026-03-11 12:49:43,503 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:49:43,507 [INFO] - KireiBD - [2 New] Saved: Skya HAIRTHRIVE Hair Growth Vitalizer Serum 75ml
+2026-03-11 12:50:06,059 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-hyaluronic-acid-facewash-100ml
+2026-03-11 12:50:06,060 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:50:06,064 [INFO] - KireiBD - [3 New] Saved: The Remedist by Dr Rhazes Hyaluronic Acid Facewash 100ml
+2026-03-11 12:50:28,677 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/faironomics-gel-40ml
+2026-03-11 12:50:28,678 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:50:28,682 [INFO] - KireiBD - [4 New] Saved: Faironomics Gel 40ml
+2026-03-11 12:50:51,851 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-age-reversal-face-serum-30ml
+2026-03-11 12:50:51,852 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:50:51,856 [INFO] - KireiBD - [5 New] Saved: The Remedist by Dr Rhazes Age Reversal Face Serum 30ml
+2026-03-11 12:51:14,833 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-essone-ultra-matter-dry-touch-silicone-sunscreen-gel-spf-50-pa-50g
+2026-03-11 12:51:14,834 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:51:14,837 [INFO] - KireiBD - [6 New] Saved: Skya ESSONE Ultra Matter Dry Touch Silicone Sunscreen Gel SPF 50+ PA++++ 50g
+2026-03-11 12:51:37,982 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accutane-anti-acne-oil-control-face-wash-for-rejuvenating-skin-100ml
+2026-03-11 12:51:37,983 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:51:37,988 [INFO] - KireiBD - [7 New] Saved: Skya ACCUTANE Anti-Acne Oil Control Face Wash for Rejuvenating Skin 100ml
+2026-03-11 12:52:01,012 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-trum-anti-acne-serum-15gm
+2026-03-11 12:52:01,013 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:52:01,016 [INFO] - KireiBD - [8 New] Saved: GM TRUM Anti Acne Serum 15gm
+2026-03-11 12:52:24,139 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-amvel-ph-cleansing-brightening-moisturizing-syndet-bar-75g
+2026-03-11 12:52:24,140 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:52:24,144 [INFO] - KireiBD - [9 New] Saved: Skya AMVEL-pH Cleansing, Brightening & Moisturizing Syndet Bar 75g
+2026-03-11 12:52:46,816 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-moisturizing-cream-for-distressed-dryitchy-irritated-skin-75ml
+2026-03-11 12:52:46,817 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:52:46,821 [INFO] - KireiBD - [10 New] Saved: SKYA Moisturizing Cream For Distressed Dry,Itchy & Irritated Skin 75ml
+2026-03-11 12:53:09,381 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-folliverse-hair-regrowth-kit-160ml
+2026-03-11 12:53:09,382 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:53:09,386 [INFO] - KireiBD - [11 New] Saved: The Remedist by Dr Rhazes Folliverse Hair Regrowth Kit 160ml
+2026-03-11 12:53:32,514 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/sunonomics-sunscreen-silicone-gel-spf50-pa-50ml
+2026-03-11 12:53:32,515 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:53:32,519 [INFO] - KireiBD - [12 New] Saved: Sunonomics SunScreen Silicone Gel SPF50 PA+++ 50ml
+2026-03-11 12:53:55,085 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/vrh-haironomics-adr-shampoo-100ml
+2026-03-11 12:53:55,085 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:53:55,090 [INFO] - KireiBD - [13 New] Saved: VRH HairOnomics ADR Shampoo 100ml
+2026-03-11 12:54:17,669 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-aqua-moist-gel-125gm
+2026-03-11 12:54:17,670 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:54:17,673 [INFO] - KireiBD - [14 New] Saved: The Remedist by Dr Rhazes Aqua Moist Gel 125gm
+2026-03-11 12:54:40,347 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 12:54:40,348 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:54:40,356 [INFO] - KireiBD - [15 New] Saved: Acne Rid Serum 50ml
+2026-03-11 12:55:02,950 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 12:55:02,950 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 12:55:02,954 [INFO] - KireiBD - [16 New] Saved: Niacide Cream 30g
+2026-03-11 20:24:40,326 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 20:24:40,328 [INFO] - KireiBD - Loaded 16 unique products from existing CSV.
+2026-03-11 20:24:40,328 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED with network_idle=True.
+2026-03-11 20:24:40,328 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 20:25:13,642 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/acne-rid-serum-40gm
+2026-03-11 20:25:13,643 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:25:36,227 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/niacide-cream-30g
+2026-03-11 20:25:36,228 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:25:58,827 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-transformation-face-cream-20gm
+2026-03-11 20:25:58,827 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:25:58,830 [INFO] - KireiBD - [1 New] Saved: Skya Transformation Face Cream 20gm
+2026-03-11 20:26:22,130 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/aesthetic-derma-primaderm-xpertsun-urban-50-ml
+2026-03-11 20:26:22,130 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:26:22,133 [INFO] - KireiBD - [2 New] Saved: Aesthetic Derma Primaderm XPERTSUN™ Urban 50 ml
+2026-03-11 20:26:44,693 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-accurex-oil-free-moisturizer-100ml
+2026-03-11 20:26:44,694 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:26:44,699 [INFO] - KireiBD - [3 New] Saved: Skya ACCUREX OIL FREE Moisturizer 100ml
+2026-03-11 20:27:07,291 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/redsyl-ahf-anti-hairall-shampoo-100ml
+2026-03-11 20:27:07,292 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:27:07,295 [INFO] - KireiBD - [4 New] Saved: Redsyl AHF Anti-Hairall Shampoo 100ml
+2026-03-11 20:27:30,457 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-remedist-by-dr-rhazes-gentle-sunscreen-spf-50-pa-50m-2
+2026-03-11 20:27:30,458 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:27:30,463 [INFO] - KireiBD - [5 New] Saved: The Remedist by Dr Rhazes Gentle Sunscreen-SPF 50+ PA++++ 50m
+2026-03-11 20:27:53,027 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/g-anti-acne-gel-30g
+2026-03-11 20:27:53,028 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:27:53,030 [INFO] - KireiBD - [6 New] Saved: G Anti Acne Gel 30g
+2026-03-11 20:28:15,599 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/gm-60-facewash-60g
+2026-03-11 20:28:15,600 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:28:15,604 [INFO] - KireiBD - [7 New] Saved: GM-60 Facewash 60g
+2026-03-11 20:28:38,218 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/skya-pellucid-n10-niacinamide-serum-10-20ml
+2026-03-11 20:28:38,218 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:28:38,221 [INFO] - KireiBD - [8 New] Saved: Skya Pellucid- N10 Niacinamide Serum 10 20ml
+2026-03-11 20:29:01,695 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/esscnce-lash-princess-flash-lash-effect-waterproof-mascara-12ml
+2026-03-11 20:29:01,695 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:29:01,698 [INFO] - KireiBD - [9 New] Saved: Essence Lash Princess Falsh Lash Effect Waterproof Mascara 12ml
+2026-03-11 20:29:24,222 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-473ml
+2026-03-11 20:29:24,223 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:29:24,226 [INFO] - KireiBD - [10 New] Saved: Cerave Foaming Facial Cleanser For Normal to Oily Skin 473ml
+2026-03-11 20:29:47,154 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-diabetisc-dry-skin-relief-moisturizing-cream-236ml
+2026-03-11 20:29:47,155 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:29:47,158 [INFO] - KireiBD - [11 New] Saved: Cerave Diabetisc Dry Skin Relief Moisturizing Cream 236ml
+2026-03-11 20:30:09,682 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-acne-control-cleanser-473ml
+2026-03-11 20:30:09,682 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:30:09,688 [INFO] - KireiBD - [12 New] Saved: Cerave Acne Control Cleanser 473ml
+2026-03-11 20:30:32,281 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-acne-control-cleanser-355ml
+2026-03-11 20:30:32,281 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:30:32,285 [INFO] - KireiBD - [13 New] Saved: Cerave Acne Control Cleanser 355ml
+2026-03-11 20:30:54,933 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-renewing-sa-cleanser-473ml-1
+2026-03-11 20:30:54,934 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:30:54,939 [INFO] - KireiBD - [14 New] Saved: Cerave Renewing SA Cleanser 473ml
+2026-03-11 20:31:17,481 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-moisturizing-cream-pump-453g
+2026-03-11 20:31:17,482 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:31:17,487 [INFO] - KireiBD - [15 New] Saved: Cerave Moisturizing Cream Pump 453g
+2026-03-11 20:31:40,107 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-healing-ointment-85g
+2026-03-11 20:31:40,108 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:31:40,111 [INFO] - KireiBD - [16 New] Saved: Cerave Healing Ointment 85g
+2026-03-11 20:32:02,695 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cetaphil-gentle-skin-cleanser-125ml
+2026-03-11 20:32:02,696 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:32:02,702 [INFO] - KireiBD - [17 New] Saved: Cetaphil Gentle Skin Cleanser Dry to Normal, SensitiveSkin 125ml
+2026-03-11 20:32:25,218 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/simple-biodegradable-cleansing-wipes-twin-pack-20-wipes
+2026-03-11 20:32:25,219 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:32:25,222 [INFO] - KireiBD - [18 New] Saved: Simple Biodegradable Cleansing Wipes Twin Pack 20 Wipes
+2026-03-11 20:32:48,353 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-charming-anti-perspirant-perfumed-deo-roll-on-50ml
+2026-03-11 20:32:48,353 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 20:32:48,360 [INFO] - KireiBD - [19 New] Saved: Enchanteur Charming Anti Perspirant Perfumed Deo Roll-On 50ml
+2026-03-11 22:52:19,179 [INFO] - ParserLoader - ✅ Successfully loaded parser for kireibd.com
+2026-03-11 22:52:19,180 [INFO] - KireiBD - Loaded 35 unique products from existing CSV.
+2026-03-11 22:52:19,181 [INFO] - KireiBD - 🌐 Headless Browser (Playwright) ENABLED with network_idle=True.
+2026-03-11 22:52:19,181 [INFO] - KireiBD - Starting scraper for KireiBD...
+2026-03-11 22:53:21,136 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-hydrating-foaming-oil-cleanser-237ml
+2026-03-11 22:53:21,137 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:53:21,145 [INFO] - KireiBD - [1 New] Saved: CeraVe Hydrating Foaming Oil Cleanser 237ml
+2026-03-11 22:53:43,791 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-charming-perfumed-deo-spray-150ml
+2026-03-11 22:53:43,792 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:53:43,797 [INFO] - KireiBD - [2 New] Saved: Enchanteur Charming Perfumed Deo Spray 150ml
+2026-03-11 22:54:06,441 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-sa-lotion-for-rough-bumpy-skin-237ml
+2026-03-11 22:54:06,442 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:54:06,445 [INFO] - KireiBD - [3 New] Saved: Cerave SA Lotion For Rough & Bumpy Skin 237ml
+2026-03-11 22:54:29,075 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/nivea-refreshingly-soft-moisturzing-cream-vegan-formula-200ml
+2026-03-11 22:54:29,076 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:54:29,079 [INFO] - KireiBD - [4 New] Saved: Nivea Refreshingly Soft Moisturzing Cream Vegan Formula 200ml
+2026-03-11 22:54:51,625 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/w7-liquid-eyeliner-pot-8ml-black
+2026-03-11 22:54:51,625 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:54:51,628 [INFO] - KireiBD - [5 New] Saved: W7 Liquid Eyeliner Pot 8ml - Black
+2026-03-11 22:55:14,247 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-gentle-hydrating-conditioner-266ml
+2026-03-11 22:55:14,247 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:55:14,253 [INFO] - KireiBD - [6 New] Saved: Cerave Gentle Hydrating Conditioner 266ml
+2026-03-11 22:55:37,315 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/l-oreal-elvive-colour-protect-anti-brassiness-purple-shampoo-200ml
+2026-03-11 22:55:37,316 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:55:37,319 [INFO] - KireiBD - [7 New] Saved: L'Oreal Elvive Colour Protect Anti Brassiness Purple Shampoo 200ml
+2026-03-11 22:55:59,856 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/the-ordinary-100-l-ascorbic-acid-powder-20g
+2026-03-11 22:55:59,857 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:55:59,861 [INFO] - KireiBD - [8 New] Saved: The Ordinary 100% L-Ascorbic Acid Powder 20g
+2026-03-11 22:56:22,393 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/cerave-anti-dandruff-hydrating-conditioner-266ml
+2026-03-11 22:56:22,394 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:56:22,397 [INFO] - KireiBD - [9 New] Saved: Cerave Anti-Dandruff Hydrating Conditioner 266ml
+2026-03-11 22:56:45,563 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-romantic-perfumed-deo-spray-150ml
+2026-03-11 22:56:45,563 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:56:45,566 [INFO] - KireiBD - [10 New] Saved: Enchanteur Romantic Perfumed Deo Spray 150ml
+2026-03-11 22:57:08,197 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/loreal-casting-creame-gloss-contioning-hair-color-360-black-cherry
+2026-03-11 22:57:08,197 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:57:08,203 [INFO] - KireiBD - [11 New] Saved: L'Oreal Casting Creme Gloss No Amonia Conditioning Colour - 360 Black Cherry
+2026-03-11 22:57:30,818 [INFO] - KireiBD - 🌍 Visiting URL: https://kireibd.com/product/enchanteur-enticing-perfumed-body-lotion-250ml
+2026-03-11 22:57:30,819 [INFO] - KireiBD - 🛒 Product page detected! Extracting data...
+2026-03-11 22:57:30,822 [INFO] - KireiBD - [12 New] Saved: Enchanteur Enticing Perfumed Body Lotion 250ml
+2026-03-11 22:57:30,891 [INFO] - KireiBD - Scraper finished successfully.
