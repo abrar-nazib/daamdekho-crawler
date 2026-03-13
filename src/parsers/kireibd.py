@@ -106,6 +106,7 @@ def parse(response, seller_name, base_url, recurse=True):
 
     if current_category:
         all_links.update(unique_next_links)
+    logger.info(f"🔗 Total unique links to follow: {len(all_links)}")
     for link in all_links:
         absolute_url = response.urljoin(link)
         yield response.follow(absolute_url)
