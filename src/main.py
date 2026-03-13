@@ -44,7 +44,7 @@ logging.getLogger("scrapling").setLevel(logging.INFO)
 PARSER_FUNC = load_parser(TARGET_DOMAIN)
 
 if not PARSER_FUNC:
-    logger.critical(f"🔥 FATAL: No parser found for {TARGET_DOMAIN}. Exiting.")
+    logger.critical(f"FATAL: No parser found for {TARGET_DOMAIN}. Exiting.")
     sys.exit(1)
 
 
@@ -137,11 +137,11 @@ async def run():
                         should_write = True
                         is_update = True
                         consecutive_duplicates = 0
-                        logger.info(f"♻️ Update: {item.get('product_name', 'Unknown')}")
+                        logger.info(f"Update: {item.get('product_name', 'Unknown')}")
                     else:
                         consecutive_duplicates += 1
                         if consecutive_duplicates >= MAX_CONSECUTIVE_DUPLICATES:
-                            logger.warning(f"⛔ Limit Reached ({consecutive_duplicates} duplicates). Stopping.")
+                            logger.warning(f"Limit Reached ({consecutive_duplicates} duplicates). Stopping.")
                             return
 
                 if should_write:

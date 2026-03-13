@@ -78,45 +78,34 @@ def parse(response, seller_name, base_url, recurse=True):
         logger.info("🗂️ Listing/Nav page detected.")
 
     # --- 2. LINK FOLLOWING LOGIC ---
-    if not recurse:
-        logger.info(f"🛑 Recursion is OFF. Not following links.")
-        return
+    # Grab all links with '/product/' in href
+    product_links = response.xpath('//a[contains(@href, "/product/")]/@href').getall()
+    unique_products = list(set(product_links))
+    logger.info(f"🔍 Found {len(unique_products)} product links with '/product/'.")
 
-    items = response.css('div.product__item')
+    # Find next page link with ?category= matching current url's category
+    current_category = None
+    match = re.search(r'category=([^&]+)', response.url)
+    if match:
+        current_category = match.group(1)
+
+    if current_category:
+        next_links = response.xpath(f'//a[contains(@href, "?category={current_category}")]/@href').getall()
+        unique_next_links = list(set(next_links))
+        logger.info(f"🔍 Found {len(unique_next_links)} pagination links for category '{current_category}'.")
     
-    if items:
-        logger.info(f"🔄 Scanning listing page... Found {len(items)} 'div.product__item' blocks.")
-        
-        # EXTENSIVE DEBUGGING: Print out the raw HTML of the first product block it found
-        # so we can see exactly what the scraper sees.
-        first_item_html = items[0].get()
-        logger.info(f"🧐 RAW HTML of first item (First 300 chars): {first_item_html[:300]}")
+    # Combine and yield unique links
+    all_links = set(unique_products)
+    if len(all_links) == 0:
+        logger.info("⚠️ No product links found on this page.")
+        # Save the page content to a html file for debugging
+        debug_filename = f"debug_{seller_name}_{response.url.split('/')[-1]}.html"
+        with open(f"/app/data/debug/{debug_filename}", "wb") as f:
+            f.write(response.body)
+        logger.info(f"📄 Saved page content to {debug_filename} for inspection.")
 
-        # Switched to bulletproof XPath for attributes
-        thumb_links = response.xpath('//a[contains(@class, "product__item-thumb")]/@href').getall()
-        title_links = response.xpath('//div[contains(@class, "product__item-content")]//h6/a/@href').getall()
-        next_links = response.xpath('//a[@rel="next"]/@href').getall()
-        
-        logger.info(f"🔍 DEBUG Extract -> Thumbs: {len(thumb_links)}, Titles: {len(title_links)}, Pagination: {len(next_links)}")
-
-        valid_links = thumb_links + title_links + next_links
-        unique_links = list(set(valid_links))
-        
-        logger.info(f"🔍 Total unique target links: {len(unique_links)}")
-        
-        links_queued = 0
-        for link in unique_links:
-            if any(ignored in link.lower() for ignored in['/account', '/cart', '/checkout', '/login', 'javascript:', 'tel:', 'mailto:']):
-                continue
-            
-            links_queued += 1
-            yield response.follow(link)
-            
-        logger.info(f"✅ Added {links_queued} links to queue.")
-    else:
-        logger.warning("⚠️ No product grids found! Printing full page body snippet to debug.")
-        safe_url = re.sub(r'[^\w\-_\.]', '_', response.url)
-        debug_file_path = f"/app/data/debug/{safe_url}.html"
-        with open(debug_file_path, "w", encoding="utf-8") as debug_file:
-            debug_file.write(response.text)
-        logger.info(f"📝 Full page HTML saved to: {debug_file_path}")
+    if current_category:
+        all_links.update(unique_next_links)
+    for link in all_links:
+        absolute_url = response.urljoin(link)
+        yield response.follow(absolute_url)

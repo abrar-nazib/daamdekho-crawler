@@ -24,12 +24,25 @@ services:
   #     - MAX_DUPLICATES=1000
   #   volumes:
   #     - ./data:/app/data
-  scraper-lira:
+  # scraper-lira:
+  #   build: .
+  #   restart: on-failure
+  #   environment:
+  #     - TARGET_DOMAIN=liraimportltd.com
+  #     - SELLER_NAME=Lira
+  #     - CONCURRENCY=5
+  #     - DELAY=1.1
+  #     - MAX_DUPLICATES=1000
+  #     - MAX_ITEMS=1000000
+  #   volumes:
+  #     - ./data:/app/data
+
+  scraper-kirei:
     build: .
     restart: on-failure
     environment:
-      - TARGET_DOMAIN=liraimportltd.com
-      - SELLER_NAME=Lira
+      - TARGET_DOMAIN=kireibd.com
+      - SELLER_NAME=KireiBD
       - CONCURRENCY=5
       - DELAY=1.1
       - MAX_DUPLICATES=1000
