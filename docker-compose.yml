@@ -43,7 +43,7 @@ services:
     environment:
       - TARGET_DOMAIN=kireibd.com
       - SELLER_NAME=KireiBD
-      - CONCURRENCY=5
+      - CONCURRENCY=1
       - DELAY=1.1
       - MAX_DUPLICATES=1000
       - MAX_ITEMS=1000000
