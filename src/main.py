@@ -4,6 +4,7 @@ import asyncio
 import logging
 import sys
 from scrapling.spiders import Spider, Response
+from scrapling.fetchers import FetcherSession, AsyncStealthySession
 import environs
 
 # IMPORT THE NEW DYNAMIC LOADER
@@ -66,6 +67,9 @@ class UniversalSpider(Spider):
 
     concurrent_requests = CONCURRENCY
     download_delay = DELAY
+
+    def configure_sessions(self, manager):
+        manager.add("default", AsyncStealthySession(headless=True, network_idle=True))
 
     async def parse(self, response: Response):
         # Use the dynamically loaded function
