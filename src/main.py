@@ -22,6 +22,7 @@ DELAY = env.float("DELAY", default=2.0)
 MAX_ITEMS = env.int("MAX_ITEMS", default=1000000)
 MAX_CONSECUTIVE_DUPLICATES = env.int("MAX_DUPLICATES", default=50)
 RECURSE = env.bool("RECURSE", default=True)
+START_URL = env("START_URL", default=f"https://{TARGET_DOMAIN}/")
 
 # --- 2. Setup Logging ---
 os.makedirs("/app/data/csvs", exist_ok=True)
@@ -56,6 +57,7 @@ class UniversalSpider(Spider):
     
     # Load custom entrypoints
     entrypoints_file = f"/app/data/csvs/{SELLER_NAME}_entrypoints.csv"
+    # entrypoints_file = f"/app/data/csvs/{SELLER_NAME}_product_links.csv"
     if os.path.exists(entrypoints_file):
         with open(entrypoints_file, mode="r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
@@ -68,8 +70,6 @@ class UniversalSpider(Spider):
     concurrent_requests = CONCURRENCY
     download_delay = DELAY
 
-    def configure_sessions(self, manager):
-        manager.add("default", AsyncStealthySession(headless=True, network_idle=True))
 
     async def parse(self, response: Response):
         # Use the dynamically loaded function
