@@ -39,8 +39,9 @@ from urllib.parse import urlparse
 from dotenv import load_dotenv
 from lxml import html
 from selenium import webdriver
-
-
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 # ── Load environment ───────────────────────────────────────────────────────────
 load_dotenv()
 
@@ -63,7 +64,7 @@ if not TARGET_DOMAIN:
 #   Nested anchor        → "//div[contains(@class,'product-item')]//a"
 #
 # The scraper handles BOTH element nodes and string results automatically.
-PRODUCT_LINK_XPATH = '//div[@class="image-container text-center"]/../@href'
+PRODUCT_LINK_XPATH = '//div[@class="card-product_title line-clamp"]/a/@href'
 
 # Seconds to wait after each scroll before re-checking page height.
 # Increase for slow-loading sites.
@@ -71,7 +72,7 @@ SCROLL_PAUSE = 3.0
 
 # Consecutive scrolls with NO height change before the page is declared fully loaded.
 # Raise for sites that load content in delayed batches.
-MAX_STALE_SCROLLS = 5
+MAX_STALE_SCROLLS = 3
 # ──────────────────────────────────────────────────────────────────────────────
 
 
@@ -128,9 +129,14 @@ def scroll_to_bottom(pause: float = SCROLL_PAUSE,
 
     while stale_count < max_stale:
         scroll_num += 1
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight - 1500);")
         time.sleep(pause + random.uniform(0.2, 0.8))   # jitter avoids robotic timing
-
+        try:
+            button_element = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "//infinite-scroll")))
+            button_element.click()
+        except:
+            print("No Load More button found.")
         new_height = driver.execute_script("return document.body.scrollHeight")
 
         if new_height == last_height:

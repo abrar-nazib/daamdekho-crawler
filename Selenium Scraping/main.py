@@ -120,7 +120,7 @@ options.add_experimental_option("detach", True)          # keeps browser open af
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
 driver = webdriver.Chrome(options=options)
-driver.implicitly_wait(15)
+driver.implicitly_wait(5)
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
