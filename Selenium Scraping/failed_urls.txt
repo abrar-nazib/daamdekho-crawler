@@ -2,3 +2,29 @@
 [2026-03-24 16:52:51]  https://www.ohsogo.com/products/10-in-1-advanced-essential-oil-for-hair  |  Parser returned None
 [2026-03-24 16:52:53]  https://www.ohsogo.com/products/3w-clinic-black-pearl-eye-cream-40ml  |  Parser returned None
 [2026-03-24 18:06:23]  https://www.ohsogo.com/products/3w-clinic-black-pearl-eye-cream-40ml  |  IndexError: list index out of range
+[2026-03-26 14:02:31] https://themallbd.com/product/pinkflash-lasting-matte-concealer-32g-02-pf-f04 | Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.165)
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0xe9cdf3+10b03]
+	undetected_chromedriver!GetHandleVerifier [0xe9cf24+10c34]
+	undetected_chromedriver!(No symbol) [0xc82120]
+	undetected_chromedriver!(No symbol) [0xc7108e]
+	undetected_chromedriver!(No symbol) [0xc8fbe9]
+	undetected_chromedriver!(No symbol) [0xcf450c]
+	undetected_chromedriver!(No symbol) [0xd0a309]
+	undetected_chromedriver!(No symbol) [0xced8a6]
+	undetected_chromedriver!(No symbol) [0xcc0229]
+	undetected_chromedriver!(No symbol) [0xcc0fe4]
+	undetected_chromedriver!GetHandleVerifier [0x11048b9+2785c9]
+	undetected_chromedriver!GetHandleVerifier [0x10ffeb5+273bc5]
+	undetected_chromedriver!GetHandleVerifier [0x111e06b+291d7b]
+	undetected_chromedriver!GetHandleVerifier [0xeb5cc8+299d8]
+	undetected_chromedriver!GetHandleVerifier [0xebd9fd+3170d]
+	undetected_chromedriver!GetHandleVerifier [0xea58c8+195d8]
+	undetected_chromedriver!GetHandleVerifier [0xea5a92+197a2]
+	undetected_chromedriver!GetHandleVerifier [0xe8ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x76035d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f7d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f7d7a1+231]
+

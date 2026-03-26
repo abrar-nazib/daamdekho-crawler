@@ -128,7 +128,7 @@ def scroll_to_bottom(pause: float = SCROLL_PAUSE,
 
     while stale_count < max_stale:
         scroll_num += 1
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight - 1000);")
         time.sleep(pause + random.uniform(0.2, 0.8))   # jitter avoids robotic timing
 
         new_height = driver.execute_script("return document.body.scrollHeight")

@@ -194,14 +194,6 @@ def parse(driver, seller_name: str, base_url: str) -> dict | None:
     product["currency"] = "BDT"
 
     # ── primary_image_url ──────────────────────────────────────────────────────
-    product["primary_image_url"] = _get_attr(
-        "xpath", '(//div[@data-swiper-slide-index and contains(@class,"swiper-slide-visible")]/img)[1]', "src", driver
-    )
-
-    # ── image_urls (all gallery images, semicolon-separated) ──────────────────
-    product["image_urls"] = ";".join(
-        _get_all_attrs("xpath", '//div[@data-swiper-slide-index and contains(@class,"swiper-slide-visible")]/img', "src", driver)
-    )
 
     # ── category_name ──────────────────────────────────────────────────────────
     # auto-derives → category_slug
@@ -233,10 +225,46 @@ def parse(driver, seller_name: str, base_url: str) -> dict | None:
     # nested children) cleanly — equivalent to scrapling's //text() joined.
     # Using //* and joining .text of each child would duplicate text because
     # a parent element's .text already includes its children's text.
-    product["product_description"] = _get_text(
-        "xpath", '//ul[@id="shortDesc"]', driver
-    )
+    # product["product_description"] = _get_text(
+    #     "xpath", '//ul[@id="shortDesc"]', driver
+    # )
+    try:
+        product["product_description"] = driver.execute_script("""
+            let el = document.querySelector('ul#shortDesc');
+            return el ? el.innerText.trim() : "";
+        """)
+    except:
+        pass
+    # product["primary_image_url"] = _get_attr(
+    #     "xpath", '(//div[@data-swiper-slide-index and contains(@class,"swiper-slide-visible")]/img)[1]', "src", driver
+    # )
 
+    # # ── image_urls (all gallery images, semicolon-separated) ──────────────────
+    # product["image_urls"] = ";".join(
+    #     _get_all_attrs("xpath", '//div[@data-swiper-slide-index and contains(@class,"swiper-slide-visible")]/img', "src", driver)
+    # )
+    try:
+        product["primary_image_url"] = driver.execute_script("""
+            let img = document.querySelector('.swiper-slide-visible img');
+            return img ? (img.src || img.getAttribute('data-src') || "") : "";
+        """)
+    except:
+        product["primary_image_url"] = ""
+    
+    try:
+        product["image_urls"] = driver.execute_script("""
+            let imgs = document.querySelectorAll('[data-swiper-slide-index] img');
+            let urls = [];
+            imgs.forEach(img => {
+                let src = img.src || img.getAttribute('data-src') || img.getAttribute('data-lazy');
+                if (src && !urls.includes(src)) {
+                    urls.push(src);
+                }
+            });
+            return urls.join(";");
+        """)
+    except:
+        product["image_urls"] = ""
     # ── review_count ───────────────────────────────────────────────────────────
     # product["review_count"] = _get_text("css", "span.count", driver) or "0"
 
